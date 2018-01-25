@@ -1,0 +1,426 @@
+@media screen and (max-width:1600px) {
+  .our-services-nav.navigated {
+    display: block;
+    .services {
+      width: 100%;
+    }
+  }
+}
+@media screen and (max-width:1240px) {
+  .header {
+    .top-part {
+      padding: 0 10px;
+    }
+    .bottom-part {
+      padding: 0 10px;
+    }
+  }
+  .sn-nav-wrapper .sn-nav.horizontal a {
+    margin-right: 0;
+    transform: scale(0.7);
+  }
+  .fancyboxHeading-popup, #country_picker, #city_picker, #headerCalculator, #back-call, #back-call1 {
+    width: 100%;
+    padding-top: 60px;
+  }
+  #city_picker {
+    padding: 60px 10px 100px;
+    form {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .city-select {
+        margin-bottom: 30px;
+        width: 320px;
+        padding-right: 0px;
+        .jq-selectbox__select {
+          padding-right: 0;
+          width: 320px;
+        }
+      }
+      input {
+        margin-bottom: 30px;
+        max-width: 300px;
+        margin-right: 10px;
+      }
+    }
+  }
+  #headerCalculator .calculator-tab-wrapper .pages-line form {
+    justify-content: space-around;
+  }
+  .investors-block .investor-wrap .income-calculator .input-range-wrap {
+    .ui-spinner {
+      display: block;
+    }
+    #range-calc-spinner {
+      display: block;
+    }
+    #range-calc {
+      display: none;
+    }
+    .number-visual {
+      display: none;
+    }
+  }
+}
+@media screen and (max-width:1100px) {
+  .investors-block .investor-wrap .income-calculator .input-range-wrap .income-calc-result .midle-part {
+    order: 1;
+    height: 370px;
+  }
+}
+@media screen and (max-width:1024px) {
+  .fancyboxHeading-popup1 .fancybox-close {
+    right: 50px;
+  }
+}
+@media screen and (max-height:768px) {
+  .sn-nav-wrapper .sn-nav.horizontal a {
+    margin-bottom: 0;
+    p {
+      margin-bottom: 0
+    }
+  }
+  .our-transport-nav .our-transport-nav-tabs {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (max-width:992px) {
+  .header {
+    .top-part {
+      padding: 0 10px;
+      .main-wrap {
+        justify-content: space-around;
+        .nav-menu-adaptiv-wrap {
+          display: none;
+        }
+        .mobile-nav-menu-button {
+          display: flex;
+          width: 45px;
+          height: 45px;
+          border: 2px solid #fff;
+          border-radius: 50%;
+          flex-wrap: wrap;
+          justify-content: center;
+          padding-top: 7px;
+          cursor: pointer;
+          padding-bottom: 7px;
+          span {
+            display: block;
+            width: 25px;
+            height: 2px;
+            background: #fff;
+          }
+        }
+      }
+    }
+    .bottom-part {
+      display: none;
+    }
+  }
+  .nav-mobile-menu {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #162a37;
+    z-index: 9999;
+    align-items: center;
+    flex-wrap: wrap;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 400ms;
+    pointer-events: none;
+    &.visible-nav-mobile-menu {
+      opacity: 1;
+      transform: scale(1);
+      transition: all 400ms;
+      pointer-events: auto;
+    }
+    .top-block {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px 0;
+      flex-wrap: wrap;
+      height: 50vh;
+      div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-right: 30px;
+        justify-content: center;
+      }
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 24px;
+        &:hover {
+          color: #fbdc03;
+        }
+        img {
+          margin-right: 10px;
+        }
+        p {
+          margin: 0;
+          display: inline;
+        }
+      }
+    }
+    .bottom-part {
+      background: #202528;
+      height: 50vh;
+      a {
+        color: #fff;
+        text-decoration: none;
+        &:hover {
+          color: #fbdc03;
+          cursor: pointer;
+        }
+      }
+      ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: stretch;
+        height: 48vh;
+        margin: 20px 0 0;
+        li {
+          width: 50%;
+          text-align: center;
+          a {
+            font-size: 24px;
+            p {
+              display: inline-block;
+              margin: 0;
+            }
+            img {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+    .nav-mobile-close-button {
+      display: block;
+      position: absolute;
+      top: 10px;
+      left: 15px;
+      width: 25px;
+      height: 25px;
+      cursor: pointer;
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        top: 50%;
+        transform: translateY(-50%) rotate(45deg);
+        background: #fff;
+      }
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        top: 50%;
+        transform: translateY(-50%) rotate(-45deg);
+        background: #fff;
+      }
+    }
+  }
+  .sn-nav-wrapper .sn-nav.horizontal a {
+    margin-right: 20px;
+    transform: scale(1);
+    width: calc(100% / 5);
+    img {
+      display: none;
+    }
+  }
+
+  #headerCalculator .calculator-tab-wrapper .bottom-total {
+    flex-wrap: wrap;
+    .image-wrap {
+      margin-right: 0;
+    }
+  }
+
+  .about-company-nav.navigated, .partners_investors-nav.navigated {
+    left: 0%;
+  }
+
+  .partners_investors-nav.navigated {
+    padding-left: 10px;
+    ul {
+      margin-right: 60px;
+    }
+  }
+}
+@media screen and (max-width:767px) {
+  .nav-mobile-menu .bottom-part ul {
+    padding: 0;
+    li {
+      width: 100%;
+      a {
+        pointer-events: auto;
+        &.active {
+          color: #fcd503;
+          pointer-events: none;
+        }
+      }
+    }
+  }
+  .sn-nav-wrapper .sn-nav.horizontal a {
+    margin-right: 30px;
+    width: calc(100% / 3);
+    margin-bottom: 10px;
+    img {
+      display: none;
+    }
+  }
+
+  .investors-block {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .investors-block .investor-wrap .investment-form .investment .divaded-income, .investors-block .investor-wrap .investment-form .investment2 .divaded-income {
+    .divaded-income-item {
+      margin-right: 15px;
+    }
+  }
+
+  .about-company-nav.navigated {
+    padding-left: 10px;
+  }
+  .our-services-nav.navigated {
+  }
+  .about-company-nav.navigated ul li a, .partners_investors-nav.navigated ul li a {
+    font-size: 24px;
+  }
+  .global-wrapper-wrapper.global-wrapper-opend {
+    transform: translate3d(70%, 0, 0) scale3d(0.85, 0.85, 1);
+  }
+}
+@media screen and (max-width:666px) {
+  .fancyboxHeading-popup1 .fancybox-skin .fancybox-inner #login-menu {
+    width: 100%;
+  }
+  .investors-block .investor-wrap .investment-form .investment .divaded-income, .investors-block .investor-wrap .investment-form .investment2 .divaded-income {
+    .divaded-income-item {
+      margin-right: 15px;
+      font-size: 20px;
+    }
+  }
+  .investors-block {
+    .investor-wrap {
+      h2 {
+        font-size: 52px;
+      }
+      .investors-image-wrap {
+        background-size: cover;
+      }
+    }
+  }
+  .investors-block .investor-wrap .investment-form .investment label input, .investors-block .investor-wrap .investment-form .investment2 label input {
+    width: 100%;
+  }
+  .investors-block .investor-wrap .income-calculator .income-calculator-heading h4 {
+    font-size: 30px;
+  }
+  .our-services-nav.navigated {
+    padding-left: 10px;
+    .menu-list-item:nth-child(2) {
+      margin-right: 30px;
+    }
+    h3 {
+      font-size: 20px;
+    }
+    ul li a {
+      font-size: 14px;
+    }
+  }
+}
+@media screen and (max-width:479px) {
+  .fancyboxHeading-popup1 .fancybox-close {
+    right: 80px;
+    top: -150px;
+  }
+  .sn-nav-wrapper .sn-nav.horizontal a {
+    font-size: 12px;
+    margin-bottom: 0;
+    img {
+      display: none;
+    }
+    &:nth-child(even) {
+      margin-right: 0;
+      margin-left: 30px;
+    }
+  }
+  .our-transport-nav .our-transport-nav-pages .our-transport-nav-page {
+    height: 40vh;
+  }
+  #city_picker {
+    padding-bottom: 140px;
+    .countries-heading {
+      h4 {
+        font-size: 20px;
+      }
+    }
+    form {
+      .city-select {
+        width: 100%;
+        .jq-selectbox__select {
+          width: 100%;
+        }
+      }
+      input {
+        width: 100%;
+      }
+    }
+  }
+  #country_picker {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 110px;
+    .main-heading {
+      h3 {
+        font-size: 30px;
+      }
+    }
+  }
+  #headerCalculator {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #headerCalculator .calculator-tab-wrapper {
+    padding-right: 0;
+    padding-left: 0;
+    .pages-line form .page-line-item {
+      width: 100%;
+      .input-field {
+        width: 100%;
+        &:after {
+          display: none;
+        }
+      }
+      .dropdown-datepicker {
+        transform: scale(0.7) translate(-75%, -70px);
+        left: 50%;
+      }
+    }
+  }
+  #back-call {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100%;
+    input {
+      margin-right: 0;
+    }
+    .button-wrapper .standartYellow {
+      padding: 18px 0px;
+      width: 250px;
+    }
+  }
+}

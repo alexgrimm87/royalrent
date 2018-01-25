@@ -1,0 +1,176 @@
+<section class="mbox first-step">
+    <div class="headline">
+        <div class="title">Оформление заказа</div>
+        <div class="steps">
+            <ul>
+                <li class="active">1. Информация</li>
+                <li>2. Доп. опции</li>
+                <li>3. Подтверждение</li>
+            </ul>
+        </div>
+    </div>
+    <form class="step-one" action="/" method="post" name="stepOne">
+        <div class="tariffs">
+            <div class="tarif-title">Вы можете воспользоваться специальным тарифом, либо пропустить этот пункт</div>
+            <div class="el-tariffs">
+                <div class="tarif-item js-tariff">
+                    <p>Выходные дни</p>
+                    <div class="item">
+                        <div class="price">5 000 руб.</div>
+                        <div class="item-desc">Бесплатная подача или возврат в аэропорту Пулково или на Московском вокзале с 9 до 21</div>
+                    </div>
+                </div>
+                <div class="tarif-item js-tariff">
+                    <p>Рабочая неделя</p>
+                    <div class="item">
+                        <div class="price">10 000 руб.</div>
+                        <div class="item-desc">Бесплатная подача или возврат в аэропорту Пулково или на Московском вокзале с 9 до 21</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-info">
+            <div class="info-title">Информация о заказе</div>
+            <div class="info-items">
+                <div class="item">
+                    <p>Город</p>
+                    <input type="text" placeholder="Выберите место">
+                </div>
+                <div class="item">
+                    <p>Где забрать автомобиль</p>
+                    <input type="text" placeholder="Выберите место">
+                </div>
+                <div class="item">
+                    <p>Где вернуть автомобиль</p>
+                    <input type="text" placeholder="Выберите место">
+                </div>
+                <div class="item parent-item">
+                    <div class="subitem">
+                        <p>Ваш возраст</p>
+                        <select name="age" class="age" data-placeholder="Выберите возраст">
+                            <option></option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                            <option>32</option>
+                            <option>33</option>
+                            <option>34</option>
+                            <option>35</option>
+                            <option>36</option>
+                            <option>37</option>
+                        </select>
+                    </div>
+                    <div class="subitem">
+                        <p>Стаж вождения</p>
+                        <select name="staz" class="staz" data-placeholder="Выберите стаж">
+                            <option></option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>>10</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="item">
+                    <p>Дата и время начала аренды</p>
+                    <input type="text" class="datepicker">
+                </div>
+                <div class="item">
+                    <p>Дата и время окончания аренды</p>
+                    <input type="text" class="datepicker">
+                </div>
+                <div class="item">
+                    <p>Оплата</p>
+                    <select name="oplata" class="oplata" data-placeholder="Выберите  способ оплаты">
+                        <option></option>
+                        <option>Наличными</option>
+                        <option>Картой</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="contacts">
+            <div class="contacts-title">Контактные данные</div>
+            <div class="main-info">
+                <div class="form_input">
+                    <input type="text" placeholder="Ваше имя">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Телефон">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Email (не обязательно)">
+                </div>
+            </div>
+            <div class="check-field">
+                <input id="all-filds" type="checkbox" name="avia">
+                <label for="all-filds"><span></span>Я хочу заполнить все данные, чтобы все документы были готовы к моему приезду</label>
+            </div>
+            <div class="full-info">
+                <div class="form_input">
+                    <input type="text" placeholder="Фамилия">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Серия, номер водительского удостоверения">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Серия, номер паспорта">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Регистрация по месту жительства">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Адрес фактического проживания">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Имя">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Дата выдачи водительского удостоверения">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Дата выдачи паспорта">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Телефон по адресу регистрации (если есть)">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Телефон по фактическому адресу (если есть)">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Отчество">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Гражданство">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Кем выдан паспорт">
+                </div>
+            </div>
+            <div class="check-field">
+                <input id="agree" type="checkbox" name="avia">
+                <label for="agree"><span></span>Я согласен(на) с условиями, перечисленными ниже</label>
+            </div>
+        </div>
+        <div class="desc">Отметьте здесь в подтверждение своего безусловного согласия на обработку (на осуществление любых действий, операций) любым способом информации, относящейся к вашим персональным данным, указанной выше (далее персональные данные), в том числе на передачу указанных персональных данных и осуществление аналогичных действий, компании «Шкода-Сервис», а также любым иным компаниям, с которыми компания «Шкода-Сервис» по собственному усмотрению заключила/заключит соответствующие договоры, для следующих целей:<br>Предоставление заказанных/согласованных услуг<br>Я предупрежден(на), что сообщение ложных сведений или представление поддельных документов влечет ответственность, установленную законодательством. С действующими тарифами ознакомлен(на), возражений не имею.</div>
+        <button type="submit" class="el-button">Продолжить</button>
+    </form>
+</section>

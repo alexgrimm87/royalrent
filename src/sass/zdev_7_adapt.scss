@@ -1,0 +1,968 @@
+@media screen and (max-width: 1366px){
+  .el-header-bg, .car-pmef-header, .event-header {
+    height: 85vh;
+  }
+}
+@media screen and (max-width: 1152px){
+  .subscribe-block {
+    .subscribe-wrap {
+      .subscribe-pic {
+        margin-right: 20px;
+      }
+      .subscribe-right {
+        h2 {
+          font-size: 35px;
+        }
+      }
+    }
+  }
+
+  .car-taxi-content {
+    .car-park {
+      .car-park-wrap {
+        .car-park-left {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+
+  .transport-services {
+    .transport-services-wrap {
+      .transport-services-center {
+        margin: 0 10px;
+      }
+      .transport-services-right {
+        width: 400px;
+      }
+    }
+  }
+
+}
+@media screen and (max-width: 1120px){
+  .longtime-rent {
+    .el-info {
+      .info-right {
+        .longtime-rent-item {
+          &:nth-child(2) {
+            top: 0;
+            right: 180px;
+          }
+          &:nth-child(3) {
+            flex-direction: column-reverse;
+            top: 176px;
+            right: 305px;
+            p {
+              margin: 0 auto;
+              text-align: center;
+            }
+            .longtime-rent-icon {
+              margin: 0 auto;
+            }
+          }
+          &:nth-child(4) {
+            top: 370px;
+            right: 180px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1080px){
+  .news {
+    .news-content {
+      .news-row {
+        justify-content: space-around;
+        .news-item {
+          padding: 5px;
+          .news-pic {
+            width: auto;
+          }
+        }
+      }
+    }
+  }
+
+  .romantic-meetings {
+    .tabs-wrap {
+      .tab-content {
+        .tab-item {
+          .excursion-item {
+            max-width: 490px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1024px){
+  .longtime-rent {
+    margin-bottom: 15px;
+    .el-info {
+      flex-direction: column;
+      .info-left {
+        margin-bottom: 15px;
+        max-width: 100%;
+      }
+      .info-right {
+        max-width: 515px;
+        margin: 0 auto;
+        .longtime-rent-pic {
+          img {
+            position: absolute; 
+            left: 50%; 
+            top: 50%; 
+            transform: translate(-50%, -50%);
+            overflow: hidden;
+          }
+        }
+        .longtime-rent-item {
+          &:nth-child(2) {
+            right: 185px;
+          }
+          &:nth-child(3) {
+            right: 305px;
+          }
+          &:nth-child(4) {
+            right: 185px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px){
+  .el-header-bg, .event-header, .news-inner-header, .franchising, .romantic-header {
+    h1 {
+      font-size: 55px;
+    }
+  }
+  .header-title {
+    font-size: 55px;
+  }
+
+  .credit {
+    .credit-spb {
+      h1 {
+        font-size: 55px;
+      }
+    }
+  }
+
+  .business-travel {
+    .business-travel-wrap {
+      h1 {
+        font-size: 55px;
+      }
+    }
+  }
+
+  .car-taxi {
+    .car-taxi-text {
+      h1 {
+        font-size: 55px;
+      }
+    }
+  }
+
+  .credit-content {
+    .few-steps {
+      .few-steps-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+        .few-steps-item {
+          width: 27%;
+          &:nth-child(1), &:nth-child(2), &:nth-child(3) {
+            margin-bottom: 15px;
+          }
+          p {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 965px){
+  .types-service {
+    background-position: center;
+    .types-service-row {
+      justify-content: center;
+      .types-service-item {
+        margin-bottom: 39px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 915px){
+  .tabs-wrap {
+    .el-tabs {
+      li {
+        font-size: 15px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 900px){
+  .el-services {
+    position: relative;
+    .services-wrap {
+      padding: 0;
+      ul {
+        flex-direction: column;
+        align-items: center;
+        &:before {
+          display: none;
+        }
+        li {
+          width: 100%;
+          text-align: center;
+          padding: 17px 24px 17px 0;
+          &:nth-child(2n) {
+            background: #f0f0f0;
+          }
+          &:nth-child(2n+1) {
+            background: #fff;
+          }
+          &:first-child {
+            background-image: linear-gradient(to top, #feb003 0%, #fbdc03 100%);
+          }
+          a {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+
+  .car-taxi-content {
+    .terms-work {
+      .terms-work-row {
+        justify-content: center;
+        flex-wrap: wrap;
+        .terms-work-item {
+          width: 30%;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+
+  .car-taxi-content {
+    .car-park {
+      .car-park-wrap {
+        flex-direction: column;
+        align-items: center;
+        .car-park-left {
+          margin: 0 0 15px 0;
+        }
+        .car-park-right {
+          max-width: 622px;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 854px){
+  .credit-content {
+    .credit-banks {
+      justify-content: center;
+      .credit-banks-item {
+        width: 50%;
+      }
+    }
+  }
+
+
+  .order-confirm {
+    .order-confirm-wrap {
+      padding-bottom: 450px;
+      background-position: center bottom;
+    }
+  }
+
+  .subscribe-block {
+    .subscribe-wrap {
+      .subscribe-right {
+        h2 {
+          font-size: 25px;
+          line-height: 36px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    .subscribe {
+      h3 {
+        font-size: 16px;
+        line-height: 21px;
+      }
+    }
+    .footer-list {
+      flex-wrap: wrap;
+      width: 550px;
+      margin: 0 auto 15px auto;
+      .footer-list-col {
+        width: 40%;
+        &:nth-child(1), &:nth-child(2) {
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 835px){
+  .not-found {
+    .not-found-wrap {
+      flex-direction: column;
+      align-items: center;
+      h1 {
+        font-size: 150px;
+      }
+      .not-found-right {
+        padding-left: 0;
+        text-align: center;
+      }
+    }
+    a {
+      min-width: 290px;
+      max-width: 290px;
+    }
+  }
+}
+@media screen and (max-width: 832px){
+  .contacts {
+    .contacts-wrap {
+      flex-direction: column;
+      align-items: center;
+      .contacts-right {
+        padding-top: 25px;
+        max-width: 600px;
+        width: 100%;
+        form {
+          text-align: center;
+          .form-field {
+            input, textarea {
+              width: 100%;
+            }
+          }
+          button {
+            max-width: 380px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .tabs-wrap {
+    &:before {
+      top: -20px;
+    }
+    .el-tabs {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      li {
+        text-align: center;
+        padding-bottom: 15px;
+        margin-bottom: 15px;
+        width: 33%;
+      }
+    }
+    .tab-content {
+      .tab-item {
+        h2 {
+          font-size: 29px;
+        }
+      }
+    }
+  }
+
+  .el-info {
+    .info-left {
+      h2 {
+        font-size: 34px;
+      }
+      .el-info-text {
+        p {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+
+  .footer {
+    .footer-bottom {
+      .footer-bottom-wrap {
+        .footer-bottom-left {
+          width: 590px;
+        }
+      }
+    }
+  }
+
+  .transport-services {
+    .transport-services-wrap {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      .transport-services-left, .transport-services-center {
+        margin-bottom: 15px;
+      }
+      .transport-services-right {
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 829px){
+  .car-taxi-content {
+    .advantages {
+      .advantages-row {
+        justify-content: center;
+        .advantages-item {
+          margin-bottom: 34px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 767px){
+  .el-header-bg {
+    &.cabriolet-ride-header {
+      
+    }
+  }
+
+  .footer {
+    .footer-bottom {
+      .footer-bottom-wrap {
+        .footer-bottom-left {
+          width: 565px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px){
+  .el-info {
+    flex-direction: column;
+    .info-left {
+      margin-bottom: 15px;
+      max-width: 100%;
+    }
+    .info-right {
+      width: 100%; //xz
+    }
+  }
+
+  .event {
+    .el-info {
+      .info-right {
+        .info-pic {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .footer {
+    .footer-bottom {
+      .footer-bottom-wrap {
+        flex-direction: column;
+        .footer-bottom-left {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 704px){
+  .el-header-bg, .event-header, .news-inner-header, .franchising, .romantic-header {
+    h1 {
+      font-size: 44px;
+      line-height: 60px;
+    }
+  }
+
+  .header-title {
+    font-size: 44px;
+    line-height: 60px;
+  }
+
+  .credit {
+    .credit-spb {
+      h1 {
+        font-size: 44px;
+        line-height: 60px;
+      }
+    }
+  }
+
+  .business-travel {
+    .business-travel-wrap {
+      h1 {
+        font-size: 44px;
+        line-height: 60px;
+      }
+    }
+  }
+
+  .car-taxi {
+    .car-taxi-text {
+      h1 {
+        font-size: 44px;
+        line-height: 60px;
+      }
+    }
+  }
+
+  .subscribe-block {
+    .subscribe-wrap {
+      .subscribe-right {
+        max-width: 480px;
+        h2 {
+          font-size: 19px;
+        }
+        form {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+
+  .credit-content {
+    .few-steps {
+      .few-steps-wrap {
+        .few-steps-item {
+          width: 33%;
+          p {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  .why-franchising {
+    .profitable, .comfortable {
+      h2 {
+        font-size: 31px;
+      }
+    }
+  }
+
+  .types-service, .transport-services {
+    h2 {
+      font-size: 31px;
+    }
+  }
+
+  .car-taxi-content {
+    .advantages, .terms-work, .car-park {
+      h2 {
+        font-size: 31px;
+        line-height: 36px;
+      }
+    }
+  }
+
+  .car-taxi-content {
+    .terms-work {
+      .terms-work-row {
+        .terms-work-item {
+          width: 45%;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 648px){
+  .order-confirm {
+    .order-confirm-wrap {
+      padding-bottom: 520px;
+    }
+  }
+
+  .why-franchising {
+    .comfortable {
+      .comfortable-wrap {
+        flex-wrap: wrap;
+        .comfortable-item {
+          width: 50%;
+          &:nth-child(1), &:nth-child(2) {
+            margin-bottom: 15px;
+          }
+          p {
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px){
+  .credit {
+    .credit-spb {
+      p {
+        font-size: 19px;
+      }
+    }
+  }
+
+  .credit-content {
+    .few-steps {
+      .few-steps-wrap {
+        align-items: center;
+        flex-direction: column;
+        .few-steps-item {
+          width: 55%;
+          margin-bottom: 15px;
+          p {
+            font-size: 16px;
+          }
+        }
+      }
+    }
+    .credit-banks {
+      .credit-banks-row {
+        flex-direction: column;
+        align-items: center;
+        .credit-banks-item {
+          width: 100%;
+          margin-bottom: 65px;
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    .footer-list {
+      width: 500px;
+      .footer-list-col {
+        width: 46%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 576px){
+  .el-info {
+    .info-left {
+      h2 {
+        text-align: center;
+      }
+      a {
+        display: block;
+        margin: 0 auto;
+        max-width: 253px;
+      }
+    }
+  }
+
+  .tabs-wrap {
+    .tab-content {
+      .tab-item {
+        h2 {
+          font-size: 32px;
+          text-align: center;
+          line-height: 34px;
+        }
+      }
+    }
+  }
+
+  .longtime-rent {
+    .el-info {
+      .info-right {
+        align-items: baseline;
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        .longtime-rent-pic {
+          width: 100%;
+        }
+        .longtime-rent-item {
+          position: static;
+          flex-direction: column-reverse;
+          max-width: calc(100%/3);
+          .longtime-rent-icon {
+            margin: 0 auto 5px auto;
+          }
+          p {
+            margin: 0 auto;
+            font-size: 14px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+
+  .subscribe-block {
+    background: #e2e2e2;
+    margin-bottom: 0;
+    padding-bottom: 60px;
+    .subscribe-wrap {
+      flex-direction: column;
+      .subscribe-pic {
+        margin-right: 0;
+        width: 100%;
+      }
+      .subscribe-right {
+        h2 {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  .footer {
+    .subscribe {
+      flex-direction: column;
+      text-align: center;
+      h3 {
+        font-size: 17px;
+        margin-bottom: 10px;
+      }
+    }
+    .footer-list {
+      width: 470px;
+      .footer-list-col {
+        width: 49%;
+      }
+    }
+    .footer-bottom {
+      .footer-bottom-wrap {
+        .footer-bottom-left {
+          width: 100%;
+          flex-direction: column-reverse;
+          .social {
+            margin-bottom: 15px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 548px){
+  .why-franchising {
+    .profitable {
+      background-position: center center;
+      .profitable-row {
+        justify-content: space-around;
+      }
+    }
+  }
+
+  .credit-content {
+    .few-steps {
+      h2 {
+        font-size: 30px;
+      }
+    }
+    .credit-banks {
+      h2 {
+        font-size: 30px;
+      }
+    }
+  }
+
+  .order-confirm {
+    .order-confirm-wrap {
+      text-align: center;
+      h1 {
+        font-size: 32px;
+      }
+    }
+  }
+  .tabs-wrap {
+    .el-tabs {
+      li {
+        font-size: 14px;
+        width: 44%;
+      }
+    }
+  }
+
+  .car-taxi-content {
+    .car-park {
+      .car-park-wrap {
+        .car-park-top {
+          width: 100%;
+          overflow-x: scroll;
+          .car-park-table {
+            width: 480px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 479px){
+  .contacts {
+    .contacts-wrap {
+      .contacts-left {
+        h2 {
+          font-size: 34px;
+        }
+      }
+    }
+  }
+  .news-inner {
+    .news-inner-text {
+      h2 {
+        font-size: 27px;
+      }
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .longtime-rent {
+    .el-info {
+      .info-right {
+        flex-direction: column;
+        align-items: center;
+        .longtime-rent-item {
+          max-width: 330px;
+          margin-bottom: 15px;
+          p {
+            max-width: 100%;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+  }
+
+
+  .footer {
+    .footer-list {
+      text-align: center;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      .footer-list-col {
+        width: 100%;
+        &:nth-child(3) {
+          margin-bottom: 15px;
+        }
+        .footer-list-item {
+          ul {
+            li {
+              a {
+                font-size: 15px;
+              }
+            }
+          }
+        }
+        .footer-logo {
+          margin: 0 auto 15px auto;
+          width: 161px;
+        }
+      }
+    }
+  }
+
+  .car-taxi-content {
+    .terms-work {
+      .terms-work-row {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 404px){
+  .tabs-wrap {
+    .el-tabs {
+      li {
+        font-size: 15px;
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 400px){
+  .el-header-bg, .event-header, .news-inner-header, .franchising, .romantic-header {
+    h1 {
+      font-size: 34px;
+      line-height: 38px;
+    }
+  }
+
+  .header-title {
+    font-size: 34px;
+    line-height: 38px;
+  }
+
+  .credit {
+    .credit-spb {
+      h1 {
+        font-size: 34px;
+        line-height: 38px;
+      }
+    }
+  }
+
+  .business-travel {
+    .business-travel-wrap {
+      h1 {
+        font-size: 34px;
+        line-height: 38px;
+      }
+    }
+  }
+
+  .car-taxi {
+    .car-taxi-text {
+      h1 {
+        font-size: 34px;
+        line-height: 38px;
+      }
+    }
+  }
+
+}
+@media screen and (max-width: 375px){
+  .why-franchising {
+    .profitable {
+      .profitable-row {
+        .profitable-item {
+          margin-bottom: 23px;
+        }
+      }
+    }
+    .comfortable {
+      .comfortable-wrap {
+        flex-direction: column;
+        align-items: center;
+        .comfortable-item {
+          width: 100%;
+          margin-bottom: 15px;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 342px){
+  .el-table {
+    .link {
+      p {
+        font-size: 21px;
+      }
+    }
+  }
+}

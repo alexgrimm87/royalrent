@@ -1,0 +1,274 @@
+//= partials/head.html
+
+<div class="global-wrapper">
+	<div class="nav-mobile-menu">
+        <div class="top-block">
+            <div class="language-picker">
+                <a href="#country_picker" class="fancyboxHeading">
+                  <img src="images/russia.png">
+                  <p>Русский</p>
+                </a>
+              </div>
+              <div class="city-picker">
+                <a href="#city_picker" class="fancyboxHeading">
+                  <img src="images/city.png">
+                  <p>Cанкт-Петербург</p>
+                </a>
+              </div>
+              <div class="online-calculator">
+                <a href="#headerCalculator" class="fancyboxHeading">
+                  <img src="images/calculator.png">
+                  <p>Онлайн калькулятор</p>
+                </a>
+              </div>
+              <div class="log-in">
+                <a href="#login-menu" class="fancyboxHeading1">
+
+                  <img src="images/login.png">
+                  <p>Личный кабинет</p>
+                </a>
+              </div>
+              <div class="telephon">
+                <a href="tel:8 800 111-11-11">8 800 111-11-11</a>
+              </div>
+          </div>
+        <div class="bottom-part ">
+            <div class="main-wrap">
+              <ul calss="nav-list">
+                <li id="our-transport">
+                  <a class="open_our-transport">Наш транспорт</a>
+                </li>
+                <li id="our-services">
+                  <a class="open_our-services">Наши услуги</a>
+                </li>
+                <li >
+                  <a href="#" class="active">
+                    <img src="images/sales.png">
+                    <p>Акции</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Тарифы</a>
+                </li> 
+                <li>
+                  <a href="#">Условия аренды</a>
+                </li>
+                <li id="about-company">
+                  <a href="#" class="open_about-company">О компании</a>
+                </li>
+                <li>
+                  <a href="#">Отзывы</a>
+                </li>
+                <li id="partners_investors">
+                  <a href="#" class="open_partners_investors">Партнерам и инвесторам</a>
+                </li>
+                <li>
+                  <a href="#">Контакты</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+        <div class="nav-mobile-close-button"></div>
+    </div>
+    //= partials/header.html
+
+    <!-- MAIN -->
+    <div class="main">
+        <!-- add partials here -->
+		<section class="investors-block">
+			<div class="investor-wrap">
+				<h2>Приглашаем инвесторов в нашу компанию</h2>	
+				<div class="undrheading">
+				<p>Возможность начать невероятно интересный бизнес 
+				с минимальными инвестициями. Для амбициозных людей, 
+				которым нравится динамичный образ жизни, которые любят 
+				автомобили и имеют деловую хватку.</p>	
+				</div>
+				<div class="investors-image-wrap">
+					<img src="images/bank_investoram.png">
+				</div>	
+				<div class="investment-form">
+					<div class="investment-heading">
+						<h4>Инвест калькулятор</h4>
+					</div>
+					<form action="ajax.php" class="investment2">
+						<label>
+							<p>Введите сумму инвестиций, руб.</p>
+							<input type="text" name="invest-total" class="">
+						</label> 
+						<div class="total-income">
+							<p>Доходность составляет: 44%</p>
+						</div>
+						<div class="divaded-income">
+							<div class="divaded-income-item ">
+								<img src="images/time_inv.png">
+								<div class="daily-income">
+									<div class="number">1 000 000 руб.</div>
+									<p>В сутки</p>
+								</div>
+							</div>
+							<div class="divaded-income-item ">
+								<img src="images/time_inv.png">
+								<div class="weekly-income">
+									<div class="number">1 000 000 руб.</div>
+									<p>В месяц</p>
+								</div>
+							</div>
+							<div class="divaded-income-item ">
+								<img src="images/time_inv.png">
+								<div class="yearly-income">
+									<div class="number">1 000 000 руб.</div>
+									<p>В год</p>
+								</div>
+							</div>
+						</div>
+						<div class="button-wrapper">
+							<button class="standartYellow">Стать инвестором</button>
+						</div>									
+					</form>				
+				</div>
+				<div class="income-calculator">
+					<div class="income-calculator-heading">
+						<h4>Узнайте свой доход на конкретных примерах</h4>
+					</div>
+					<div class="input-range-wrap">
+						<form action="ajax.php" class="investment">							
+							<input type="text" name="range-calc" class="range-calc">
+							<input type="" name="range-calc-spinner" id="range-calc-spinner" value="0">
+							<div id="range-calc">
+								<div id="custom-handle" class="ui-slider-handle">
+									
+								</div>
+								<div class="upper-handle"></div>
+							</div>
+							<div class="number-visual">
+								<ul>
+									<li data-price="500000">500000p</li>
+									<li data-price="1000000">1000000p</li>
+									<li data-price="1500000">1500000p</li>
+									<li data-price="2000000">2000000p</li>
+									<li data-price="2500000">2500000p</li>
+									<li data-price="3000000">3000000p</li> 
+									<li data-price="3500000">3500000p</li>
+									<li data-price="4000000">4000000p</li>
+									<li data-price="4500000">4500000p</li>
+									<li data-price="5000000">5000000p</li>
+								</ul>
+							</div>
+
+							<div class="income-calc-result">
+								<div class="left-part">
+									<div class="current-heding">
+										<h5>Инвестиции</h5>
+									</div>
+									<div class="line">
+										<div class="dimension">
+											Стоимость:
+										</div>
+										<div class="dimension-value">
+											2 066 р.
+										</div>	
+									</div>
+									<div class="line">
+										<div class="dimension">
+											Каско на год:
+										</div>
+										<div class="dimension-value">
+											62 066 р.
+										</div>	
+									</div>
+									<div class="line">
+										<div class="dimension">
+											Осаго на год:
+										</div>
+										<div class="dimension-value">
+											762 066 р.
+										</div>	
+									</div>
+									<div class="line">
+										<div class="dimension">
+											Итого:
+										</div>
+										<div class="dimension-value">
+											1 762 066 р.
+										</div>	
+									</div>
+								</div>
+								<div class="midle-part">
+									<div class="midle-image-wrap">
+										<img src="images/primer.jpg" data-img-cost="500000">
+										<img src="images/primary1.jpg" data-img-cost="1000000">
+									</div>
+								</div>
+								<div class="right-part">
+									<div class="current-heding">
+										<h5>Доходы</h5>
+									</div>
+									<div class="line">
+										<div class="dimension">
+											Доход в сутки:
+										</div>
+										<div class="dimension-value">
+											2 066 р.
+										</div>	
+									</div>
+									<div class="line">
+										<div class="dimension">
+											Доход в месяц:
+										</div>
+										<div class="dimension-value">
+											62 066 р.
+										</div>	
+									</div>
+									<div class="line">
+										<div class="dimension">
+											Доход за год:
+										</div>
+										<div class="dimension-value">
+											762 066 р.
+										</div>	
+									</div>
+									<div class="line">
+										<div class="dimension">
+											Итого:
+										</div>
+										<div class="dimension-value">
+											1 762 066 р.
+										</div>	
+									</div>
+								</div>
+							</div>
+
+							<div class="button-wrapper">
+								<button href="#" class="standartYellow">Стать инвестором</button>
+							</div>
+						</form>	
+					</div>	
+				</div>
+				<!-- <div class="investors-subscription">
+					<div class="subscipt-image-wrap">
+						<img src="image/subscribe.png">
+					</div>
+					<div class="subscribe-form">
+						<h3>Подпишитесь и экономьте узнавая о всех скидках и акциях первым!</h3>
+						<form action="" >
+							<input type="email" name="email">
+							
+								<button href="#" class="standartYellow">Стать инвестором</button>
+					
+						</form>
+					</div>
+				</div> -->
+				//= partials/subscribe.html
+			</div>
+		</section>
+    </div>
+    <!-- /MAIN -->
+
+    //= partials/hidden-block.html
+
+    //= partials/footer.html
+
+</div>
+</body>
+</html>

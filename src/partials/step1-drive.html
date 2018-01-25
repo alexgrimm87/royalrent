@@ -1,0 +1,92 @@
+<section class="mbox first-step first-step-driver">
+    <div class="headline">
+        <div class="title">Оформление заказа</div>
+        <div class="steps">
+            <ul>
+                <li class="active">1. Информация</li>
+                <li>2. Подтверждение</li>
+            </ul>
+        </div>
+    </div>
+    <form class="step-one" action="/" method="post" name="stepOne">
+        <div class="tariffs">
+            <div class="tarif-title">Выберите тариф</div>
+            <div class="el-tariffs">
+                <div class="tarif-item js-tariff">
+                    <p>По часам</p>
+                    <div class="item">
+                        <div class="price">от 800 руб. в час</div>
+                        <div class="item-desc">Бесплатная подача или возврат в аэропорту Пулково или на Московском вокзале с 9 до 21</div>
+                    </div>
+                </div>
+                <div class="tarif-item js-tariff transfer">
+                    <p>Трансфер</p>
+                    <div class="item">
+                        <div class="price">Цена по звонку</div>
+                        <div class="item-desc">Чтобы узнать цены на этот тариф свяжитесь с нашим менеджером</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-info">
+            <div class="info-title">Информация о заказе</div>
+            <div class="info-items">
+                <div class="item">
+                    <p>Город</p>
+                    <input type="text" placeholder="Выберите место">
+                </div>
+                <div class="item">
+                    <p>Место начала аренды</p>
+                    <input type="text" placeholder="Выберите место">
+                </div>
+                <div class="item">
+                    <p>Место окончания аренды</p>
+                    <input type="text" placeholder="Выберите место">
+                </div>
+                <div class="item">
+                    <p>Оплата</p>
+                    <select name="oplata" class="oplata" data-placeholder="Выберите  способ оплаты">
+                        <option></option>
+                        <option>Наличными</option>
+                        <option>Картой</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <p>Дата и время начала аренды</p>
+                    <input type="text" class="datepicker">
+                </div>
+                <div class="item">
+                    <p>Дата и время окончания аренды</p>
+                    <input type="text" class="datepicker">
+                </div>
+            </div>
+        </div>
+        <div class="contacts">
+            <div class="contacts-title">Контактные данные</div>
+            <div class="main-info">
+                <div class="form_input">
+                    <input type="text" placeholder="Ваше имя">
+                </div>
+                <div class="form_input">
+                    <input type="text" id="phone" placeholder="Телефон">
+                </div>
+                <div class="form_input">
+                    <input type="text" placeholder="Email (не обязательно)">
+                </div>
+            </div>
+        </div>
+        <div class="tariffs">
+            <div class="tarif-title">Выберите дополнительное оборудование</div>
+            <div class="el-tariffs">
+                <div class="tarif-item js-tariff">
+                    <p>Детское кресло</p>
+                    <div class="item item-sec">
+                        <div class="price">260 руб. в день</div>
+                        <div class="item-pic"><img src="../images/child-chair.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="el-button">Продолжить</button>
+    </form>
+</section>

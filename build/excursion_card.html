@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- build:css -->
+
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/formstyler.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/jquery.secretnav.css">
+     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+
+    
+    <!-- add new file here -->
+    <!-- add new file here -->
+
+    <link rel="stylesheet" href="css/zdev_0_basic.css">
+    <link rel="stylesheet" href="css/zdev_2.css">
+    <link rel="stylesheet" href="css/zdev_2_adapt.css">
+    <link rel="stylesheet" href="css/zdev_6.css">
+    <link rel="stylesheet" href="css/zdev_6_adapt.css">
+    <link rel="stylesheet" href="css/zdev_7.css">
+    <link rel="stylesheet" href="css/zdev_7_adapt.css">
+    <!-- endbuild -->
+
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" href="https://rawgit.com/codefucker/finalReject/master/reject/reject.css" media="all" />
+    <script type="text/javascript" src="https://rawgit.com/codefucker/finalReject/master/reject/reject.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="global-wrapper">
+    <div class="nav-mobile-menu">
+        <div class="top-block">
+            <div class="language-picker">
+                <a href="#country_picker" class="fancyboxHeading">
+                  <img src="images/russia.png">
+                  <p>Русский</p>
+                </a>
+              </div>
+              <div class="city-picker">
+                <a href="#city_picker" class="fancyboxHeading">
+                  <img src="images/city.png">
+                  <p>Cанкт-Петербург</p>
+                </a>
+              </div>
+              <div class="online-calculator">
+                <a href="#headerCalculator" class="fancyboxHeading">
+                  <img src="images/calculator.png">
+                  <p>Онлайн калькулятор</p>
+                </a>
+              </div>
+              <div class="log-in">
+                <a href="#login-menu" class="fancyboxHeading1">
+
+                  <img src="images/login.png">
+                  <p>Личный кабинет</p>
+                </a>
+              </div>
+              <div class="telephon">
+                <a href="tel:8 800 111-11-11">8 800 111-11-11</a>
+              </div>
+          </div>
+        <div class="bottom-part ">
+            <div class="main-wrap">
+              <ul calss="nav-list">
+                <li id="our-transport">
+                  <a class="open_our-transport">Наш транспорт</a>
+                </li>
+                <li id="our-services">
+                  <a class="open_our-services">Наши услуги</a>
+                </li>
+                <li >
+                  <a href="#" class="active">
+                    <img src="images/sales.png">
+                    <p>Акции</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Тарифы</a>
+                </li> 
+                <li>
+                  <a href="#">Условия аренды</a>
+                </li>
+                <li id="about-company">
+                  <a href="#" class="open_about-company">О компании</a>
+                </li>
+                <li>
+                  <a href="#">Отзывы</a>
+                </li>
+                <li id="partners_investors">
+                  <a href="#" class="open_partners_investors">Партнерам и инвесторам</a>
+                </li>
+                <li>
+                  <a href="#">Контакты</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+        <div class="nav-mobile-close-button"></div>
+    </div>
+    <!-- HEADER -->
+    <header class="header"> 
+    	
+    		<div class="top-part">
+    			<div class="main-wrap">
+    				<div class="company-logo">
+    					<a href="/">
+    						<img src="images/white_logo.png">
+    					</a>
+    				</div>	
+    				<div class="nav-menu-adaptiv-wrap">
+    					<div class="language-picker">
+    						<a href="#country_picker" class="fancyboxHeading">
+    							<img src="images/russia.png">
+    							<p>Русский</p>
+    						</a>
+    					</div>
+    					<div class="city-picker">
+    						<a href="#city_picker" class="fancyboxHeading">
+    							<img src="images/city.png">
+    							<p>Cанкт-Петербург</p>
+    						</a>
+    					</div>
+    					<div class="online-calculator">
+    						<a href="#headerCalculator" class="fancyboxHeading">
+    							<img src="images/calculator.png">
+    							<p>Онлайн калькулятор</p>
+    						</a>
+    					</div>
+    					<div class="log-in">
+    						<a href="#login-menu" class="fancyboxHeading1">
+    
+    							<img src="images/login.png">
+    							<p>Личный кабинет</p>
+    						</a>
+    					</div>
+    					<div class="telephon">
+    						<a href="tel:8 800 111-11-11">8 800 111-11-11</a>
+    					</div>
+    				</div>
+    				<div class="mobile-nav-menu-button">
+    					<span></span>
+    					<span></span>
+    					<span></span>
+    				</div>
+    				<div class="button-wrap">
+    					<a href="#back-call" class="fancyboxHeading" >Обратный звонок</a>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="bottom-part ">
+    			<div class="main-wrap">
+    				<ul calss="nav-list">
+    					<li id="our-transport">
+    						<a class="open_our-transport">Наш транспорт</a>
+    					</li>
+    					<li id="our-services">
+    						<a class="open_our-services">Наши услуги</a>
+    					</li>
+    					<li >
+    						<a href="#" class="active">
+    							<img src="images/sales.png">
+    							<p>Акции</p>
+    						</a>
+    					</li>
+    					<li>
+    						<a href="#">Тарифы</a>
+    					</li> 
+    					<li>
+    						<a href="#">Условия аренды</a>
+    					</li>
+    					<li id="about-company">
+    						<a href="#" class="open_about-company">О компании</a>
+    					</li>
+    					<li>
+    						<a href="#">Отзывы</a>
+    					</li>
+    					<li id="partners_investors">
+    						<a href="#" class="open_partners_investors">Партнерам и инвесторам</a>
+    					</li>
+    					<li>
+    						<a href="#">Контакты</a>
+    					</li>
+    				</ul>
+    			</div>
+    		</div>
+    
+    		
+    	
+    </header>
+    <!-- /HEADER -->
+
+    <!-- MAIN -->
+    <div class="main">
+        <!-- add partials here -->
+        <div class="el-breadcrumbs">
+          <div class="mbox">
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li class="active"><a href="credit_for_rent.html">This</a></li>
+            </ul>
+          </div>
+        </div>
+        <section class="mbox wrap-slider-card">
+        	<div class="slider-card">
+        		<div class="big-photos">
+        			<div class="photo"><img src="../images/moskow.png" alt=""></div>
+        			<div class="photo"><img src="../images/moskow.png" alt=""></div>
+        			<div class="photo"><img src="../images/moskow.png" alt=""></div>
+        			<div class="photo"><img src="../images/moskow.png" alt=""></div>
+        			<div class="photo"><img src="../images/moskow.png" alt=""></div>
+        		</div>
+        		<div class="small-photos">
+        			<div class="sm-photo"><img src="../images/car_exc.png" alt=""></div>
+        			<div class="sm-photo"><img src="../images/bridge.png" alt=""></div>
+        			<div class="sm-photo"><img src="../images/river.png" alt=""></div>
+        			<div class="sm-photo"><img src="../images/bridge.png" alt=""></div>
+        			<div class="sm-photo"><img src="../images/river.png" alt=""></div>
+        		</div>
+        	</div>
+        	<div class="right-card">
+        		<div class="card-title">Бизнес-интенсив. Обзорная экскурсия для деловых людей</div>
+        		<div class="about">
+        			<span><img src="../images/money_cart.png" alt=""></span>
+        			<span>от 3 000 руб.</span>
+        		</div>
+        		<div class="about">
+        			<span><img src="../images/time_cart.png" alt=""></span>
+        			<span>от 3 часов</span>
+        		</div>
+        		<div class="about">
+        			<span><img src="../images/people_cart.png" alt=""></span>
+        			<span>от 1 чел.</span>
+        		</div>
+        		<a class="el-button" href="order_excursion.html">Заказать</a>
+        		<div class="ask">
+        			<a class="fancybox-form" href="#call-popup">
+        				<span><img src="../images/support_cart.png" alt=""></span>
+        				<span>У меня есть вопрос. Заказать обратный звонок.</span>
+        			</a>
+        		</div>
+        	</div>
+        </section>
+        
+        <section class="mbox wrapper-details">
+        	<div class="details">
+        		<p>Подробное описание экскурсии</p>
+        		<a href="#"><img src="../images/plus.png" alt=""></a>
+        	</div>
+        	<div class="equipment-hidden">
+        		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur, dicta beatae dolores fugit ratione nisi, quis pariatur minus temporibus in accusamus rerum minima mollitia, ad cupiditate deleniti ut odit ipsa. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium omnis doloribus modi fuga, necessitatibus deserunt obcaecati consequatur, assumenda. Maiores commodi consequatur minima velit necessitatibus autem ex iusto doloribus, a quas.
+        	</div>
+        	<div class="dop-tarifs">Доступные тарифы при оформлении экскурсии:</div>
+        	<div class="available-tariffs">
+        		<div class="tar-item">
+        			<div class="title">1-2 человека</div>
+        			<div class="price">
+        				<p><b>5 650</b><i>₽</i></p>
+        			</div>
+        			<div class="desc">Автомобиль комфорт класса</div>
+        			<div class="desc">Услуги гида-экскурсовода</div>
+        			<div class="desc">Услуги водителя</div>
+        			<div class="desc">Что оплачивается дополнительно? </div>
+        			<div class="prompt-hidden">
+        				<div class="prompt-title">Бесплатная подача в аэропорту или на Московском вокзале</div>
+        				<p>Бесплатная подача в аэропорту или на Московском вокзалеБесплатная подача в аэропорту или на Московском вокзалеБесплатная подача в аэропорту или на Московском вокзалеБесплатная подача в аэропорту или на Московском вокзале</p>
+        			</div>
+        		</div>
+        		<div class="tar-item">
+        			<div class="title">1-2 человека</div>
+        			<div class="price">
+        				<p><b>6 650</b><i>₽</i></p>
+        			</div>
+        			<div class="desc">Автомобиль бизнес класса</div>
+        			<div class="desc">Услуги гида-экскурсовода</div>
+        			<div class="desc">Услуги водителя</div>
+        			<div class="desc">Что оплачивается дополнительно? </div>
+        			<div class="prompt-hidden">
+        				<div class="prompt-title">Бесплатная подача в аэропорту или на Московском вокзале</div>
+        				<p>Бесплатная подача в аэропорту или на Московском вокзалеБесплатная подача в аэропорту или на Московском вокзалеБесплатная подача в аэропорту или на Московском вокзалеБесплатная подача в аэропорту или на Московском вокзале</p>
+        			</div>
+        		</div>
+        		<div class="tar-item">
+        			<div class="title">3-6 человек</div>
+        			<div class="price">
+        				<p><b>6 650</b><i>₽</i></p>
+        				<span><strong>/</strong>в сутки</span>
+        			</div>
+        			<div class="desc">Автомобиль минивэн</div>
+        			<div class="desc">Услуги гида-экскурсовода</div>
+        			<div class="desc">Услуги водителя</div>
+        			<div class="desc">Что оплачивается дополнительно? </div>
+        			<div class="prompt-hidden">
+        				<div class="prompt-title">Бесплатная подача в аэропорту или на Московском вокзале</div>
+        				<p>Бесплатная подача в аэропорту или на Московском вокзалеБесплатная подача в аэропорту или на Московском вокзалеБесплатная подача в аэропорту или на Московском вокзалеБесплатная подача в аэропорту или на Московском вокзале</p>
+        			</div>
+        		</div>
+        		<div class="tar-item">
+        			<div class="title">7-8 человек</div>
+        			<div class="price">
+        				<p><b>8 650</b><i>₽</i></p>
+        				<span><strong>/</strong>в сутки</span>
+        			</div>
+        			<div class="desc">Автомобиль минивэн</div>
+        			<div class="desc">Услуги гида-экскурсовода</div>
+        			<div class="desc">Услуги водителя</div>
+        			<div class="desc">Что оплачивается дополнительно? </div>
+        			<div class="prompt-hidden">
+        				<div class="prompt-title">Бесплатная подача в аэропорту или на Московском вокзале</div>
+        				<p>Бесплатная подача в аэропорту или на Московском вокзалеБесплатная подача в аэропорту или на Московском вокзалеБесплатная подача в аэропорту или на Московском вокзалеБесплатная подача в аэропорту или на Московском вокзале</p>
+        			</div>
+        		</div>
+        	</div>
+        	<div class="tariffs-description">
+        		<div class="prompts">
+        			<p>Цена действительна для экскурсии на русском и английском языке.</p>
+        			<p>Стоимость экскурсии на других языках и для группы большего размера уточняйте у наших менеджеров.</p>
+        			<p>Экскурсия также может быть проведена на автомобилях представительского класса или на вашем автомобиле с уменьшением стоимости.</p>
+        		</div>
+        	</div>
+        </section>
+        
+        <section class="mbox wrap-recomend">
+        	<div class="recomend-title">Рекомендуем посмотреть эти экскурсии:</div>
+        	<div class="filter-tab-item">
+        		<div class="excursion-item">
+        	      <div class="exc-text">
+        	        <div class="info">
+        	          <span class="time"><img src="../images/time-one.png" alt=""> 4 часа</span>
+        	          <span class="time"><img src="../images/cost.png" alt=""> от 5 000 руб.</span>
+        	        </div>
+        	        <div class="info">
+        	          <div class="info-title">Все самое лучшее в Петербурге за 4 часа.</div>
+        	        </div>
+        	        <div class="info">
+        	          <div class="info-desc">Экспресс-экскурсионная программа, позволяющая за короткое время ознакомиться с самыми известными и популярными достопримечательностями Санкт-Петербурга.</div>
+        	        </div>
+        	        <div class="info-details">
+        	          <a href="excursion_card.html">Узнать подробнее</a>
+        	        </div>
+        	      </div>
+        	      <div class="exc-photo"><img src="../images/excursion.png" alt=""></div>
+        	    </div>
+        	    <div class="excursion-item">
+        	      <div class="exc-text">
+        	        <div class="info">
+        	          <span class="time"><img src="../images/time-one.png" alt=""> 4 часа</span>
+        	          <span class="time"><img src="../images/cost.png" alt=""> от 5 000 руб.</span>
+        	        </div>
+        	        <div class="info">
+        	          <div class="info-title">Все самое лучшее в Петербурге за 4 часа.</div>
+        	        </div>
+        	        <div class="info">
+        	          <div class="info-desc">Экспресс-экскурсионная программа, позволяющая за короткое время ознакомиться с самыми известными и популярными достопримечательностями Санкт-Петербурга.</div>
+        	        </div>
+        	        <div class="info-details">
+        	          <a href="excursion_card.html">Узнать подробнее</a>
+        	        </div>
+        	      </div>
+        	      <div class="exc-photo"><img src="../images/excursion.png" alt=""></div>
+        	    </div>
+        	    <div class="excursion-item">
+        	      <div class="exc-text">
+        	        <div class="info">
+        	          <span class="time"><img src="../images/time-one.png" alt=""> 4 часа</span>
+        	          <span class="time"><img src="../images/cost.png" alt=""> от 5 000 руб.</span>
+        	        </div>
+        	        <div class="info">
+        	          <div class="info-title">Все самое лучшее в Петербурге за 4 часа.</div>
+        	        </div>
+        	        <div class="info">
+        	          <div class="info-desc">Экспресс-экскурсионная программа, позволяющая за короткое время ознакомиться с самыми известными и популярными достопримечательностями Санкт-Петербурга.</div>
+        	        </div>
+        	        <div class="info-details">
+        	          <a href="excursion_card.html">Узнать подробнее</a>
+        	        </div>
+        	      </div>
+        	      <div class="exc-photo"><img src="../images/excursion.png" alt=""></div>
+        	    </div>
+        	    <div class="excursion-item">
+        	      <div class="exc-text">
+        	        <div class="info">
+        	          <span class="time"><img src="../images/time-one.png" alt=""> 4 часа</span>
+        	          <span class="time"><img src="../images/cost.png" alt=""> от 5 000 руб.</span>
+        	        </div>
+        	        <div class="info">
+        	          <div class="info-title">Все самое лучшее в Петербурге за 4 часа.</div>
+        	        </div>
+        	        <div class="info">
+        	          <div class="info-desc">Экспресс-экскурсионная программа, позволяющая за короткое время ознакомиться с самыми известными и популярными достопримечательностями Санкт-Петербурга.</div>
+        	        </div>
+        	        <div class="info-details">
+        	          <a href="excursion_card.html">Узнать подробнее</a>
+        	        </div>
+        	      </div>
+        	      <div class="exc-photo"><img src="../images/excursion.png" alt=""></div>
+        	    </div>
+            </div>
+        </section>
+        
+        <section class="mbox wrap-look-before">
+        	<div class="recomend-title">Ранее просмотренные вами экскурсии:</div>
+        	<div class="filter-tab-item">
+        		<div class="excursion-item">
+        	      <div class="exc-text">
+        	        <div class="info">
+        	          <span class="time"><img src="../images/time-one.png" alt=""> 4 часа</span>
+        	          <span class="time"><img src="../images/cost.png" alt=""> от 5 000 руб.</span>
+        	        </div>
+        	        <div class="info">
+        	          <div class="info-title">Все самое лучшее в Петербурге за 4 часа.</div>
+        	        </div>
+        	        <div class="info">
+        	          <div class="info-desc">Экспресс-экскурсионная программа, позволяющая за короткое время ознакомиться с самыми известными и популярными достопримечательностями Санкт-Петербурга.</div>
+        	        </div>
+        	        <div class="info-details">
+        	          <a href="excursion_card.html">Узнать подробнее</a>
+        	        </div>
+        	      </div>
+        	      <div class="exc-photo"><img src="../images/excursion.png" alt=""></div>
+        	    </div>
+        	    <div class="excursion-item">
+        	      <div class="exc-text">
+        	        <div class="info">
+        	          <span class="time"><img src="../images/time-one.png" alt=""> 4 часа</span>
+        	          <span class="time"><img src="../images/cost.png" alt=""> от 5 000 руб.</span>
+        	        </div>
+        	        <div class="info">
+        	          <div class="info-title">Все самое лучшее в Петербурге за 4 часа.</div>
+        	        </div>
+        	        <div class="info">
+        	          <div class="info-desc">Экспресс-экскурсионная программа, позволяющая за короткое время ознакомиться с самыми известными и популярными достопримечательностями Санкт-Петербурга.</div>
+        	        </div>
+        	        <div class="info-details">
+        	          <a href="excursion_card.html">Узнать подробнее</a>
+        	        </div>
+        	      </div>
+        	      <div class="exc-photo"><img src="../images/excursion.png" alt=""></div>
+        	    </div>
+        	    <div class="excursion-item">
+        	      <div class="exc-text">
+        	        <div class="info">
+        	          <span class="time"><img src="../images/time-one.png" alt=""> 4 часа</span>
+        	          <span class="time"><img src="../images/cost.png" alt=""> от 5 000 руб.</span>
+        	        </div>
+        	        <div class="info">
+        	          <div class="info-title">Все самое лучшее в Петербурге за 4 часа.</div>
+        	        </div>
+        	        <div class="info">
+        	          <div class="info-desc">Экспресс-экскурсионная программа, позволяющая за короткое время ознакомиться с самыми известными и популярными достопримечательностями Санкт-Петербурга.</div>
+        	        </div>
+        	        <div class="info-details">
+        	          <a href="excursion_card.html">Узнать подробнее</a>
+        	        </div>
+        	      </div>
+        	      <div class="exc-photo"><img src="../images/excursion.png" alt=""></div>
+        	    </div>
+        	    <div class="excursion-item">
+        	      <div class="exc-text">
+        	        <div class="info">
+        	          <span class="time"><img src="../images/time-one.png" alt=""> 4 часа</span>
+        	          <span class="time"><img src="../images/cost.png" alt=""> от 5 000 руб.</span>
+        	        </div>
+        	        <div class="info">
+        	          <div class="info-title">Все самое лучшее в Петербурге за 4 часа.</div>
+        	        </div>
+        	        <div class="info">
+        	          <div class="info-desc">Экспресс-экскурсионная программа, позволяющая за короткое время ознакомиться с самыми известными и популярными достопримечательностями Санкт-Петербурга.</div>
+        	        </div>
+        	        <div class="info-details">
+        	          <a href="excursion_card.html">Узнать подробнее</a>
+        	        </div>
+        	      </div>
+        	      <div class="exc-photo"><img src="../images/excursion.png" alt=""></div>
+        	    </div>
+            </div>
+        </section>
+        <section class="el-services">
+          <div class="services-wrap">
+            <ul>
+              <li><a href="#" class="open_our-services">Показать все наши услуги</a></li>
+              <li><a href="#">Деловые поездки</a></li>
+              <li><a href="#">Транспорт на свадьбу</a></li>
+              <li><a href="#">Оформление транспорта</a></li>
+              <li><a href="#">Встреча из роддома</a></li>
+              <li><a href="#">Романическая встреча</a></li>
+            </ul>
+          </div>
+        </section>
+    </div>
+    <!-- /MAIN -->
+
+   
+    <div class="el-breadcrumbs foot-breadcrumbs">
+      <div class="mbox">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li class="active"><a href="credit_for_rent.html">Кредит на аренду</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="footer_placeholder">
+     
+    </div>
+    <footer class="footer">
+      <div class="mbox">
+    <!--     <div class="subscribe">
+          <h3>Подпишитесь на рассылку и экономьте узнавая о всех акциях и скидках первым!</h3>
+          <a class="el-button" href="#">Подписаться</a>
+        </div> -->
+        <div class="footer-list">
+          <div class="footer-list-col">
+            <div class="footer-list-item">
+              <h3>Услуги нашей компании</h3>
+              <ul>
+                <li><a href="excursion.html">Экскурсии и индивидуальные туры</a></li>
+                <li><a href="photosession.html">Фотосессия с эксклюзивным автомобилем</a></li>
+                <li><a href="business_travel.html">Деловые поездки</a></li>
+                <li><a href="pulkovo_transfer.html">Трансфер в аэропорт Пулково</a></li>
+                <li><a href="cabriolet-ride.html">Прогулки на кабриолетах</a></li>
+                <li><a href="vehicle_registration.html">Транспорт на свадьбу</a></li>
+                <li><a href="vehicle_registration.html">Оформление транспорта</a></li>
+                <li><a href="meeting_from_maternity.html">Встреча из роддома</a></li>
+                <li><a href="birthdays_anniversaris.html">День рождения или юбилей</a></li>
+                <li><a href="romantic_meetings.html">Романтическая встреча</a></li>
+                <li><a href="stpetersburg_transfer.html">Трансфер ж/д и речной вокзалы</a></li>
+                <li><a href="credit_for_rent.html">Аренда в кредит</a></li>
+                <li><a href="car_for_pmef.html">Автомобиль на ПМЭФ</a></li>
+                <li><a href="juridic-forum.html">Автомобиль на юридический форум</a></li>
+                <li><a href="rent_than_buy.html">Аренда с выкупом</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-list-col">
+            <div class="footer-list-item">
+              <h3>Услуги юридическим лицам</h3>
+              <ul>
+                <li><a href="conveying_employees.html">Развозка сотрудников</a></li>
+                <li><a href="business_taxi.html">Бизнес такси без логотипов</a></li>
+                <li><a href="vip_escort.html">VIP-сопровождение</a></li>
+                <li><a href="event_organization.html">Организация мероприятий</a></li>
+                <li><a href="cabriolet-ride.html">Прогулки на кабриолетах</a></li>
+                <li><a href="vip_hall_order.html">Заказ VIP залов</a></li>
+                <li><a href="meeting_with_plate.html">Встреча у трапа самолета с табличкой</a></li>
+                <li><a href="longtime_rent.html">Длительная аренда</a></li>
+              </ul>
+            </div>
+            <div class="footer-list-item">
+              <h3>Сотрудничество</h3>
+              <ul>
+                <li><a href="operational_leasing.html">Оперативный лизинг</a></li>
+                <li><a href="car_for_taxi.html">Сдача автомобиля в такси</a></li>
+                <li><a href="cooperation.html">Сотрудничество с нами</a></li>
+                <li><a href="for_investors.html">Инвесторам</a></li>
+                <li><a href="franchising.html">Франшиза Royal Rent</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-list-col">
+            <div class="footer-list-item">
+              <h3>Наш транспорт</h3>
+              <ul>
+                <li><a href="car_with_driver.html">Автомобили с водителем</a></li>
+                <li><a href="car_nonedriver.html">Автомобили без водителя</a></li>
+                <li><a href="cabriolets.html">Кабриолеты</a></li>
+                <li><a href="retro_cars.html">Ретро автомобили</a></li>
+                <li><a href="limousine.html">Лимузины</a></li>
+                <li><a href="minibuses.html">Микроавтобусы</a></li>
+                <li><a href="buses.html">Автобусы</a></li>
+                <li><a href="boats_and_yachts.html">Катера и яхты</a></li>
+                <li><a href="helicopters.html">Вертолеты</a></li>
+                <li><a href="business_aviation.html">Бизнес авиация</a></li>
+              </ul>
+            </div>
+            <div class="footer-list-item">
+              <h3>Дополнительно</h3>
+              <ul>
+                <li><a href="#">Калькулятор заказа</a></li>
+                <li><a href="#">Личный кабинет</a></li>
+                <li><a href="#">Карта сайта</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-list-col">
+            <div class="footer-list-item">
+              <h3>Информация о прокате</h3>
+              <ul>
+                <li><a href="about_us.html">О компании</a></li>
+                <li><a href="rent_conditions.html">Условия аренды</a></li>
+                <li><a href="tariffs.html">Тарифы</a></li>
+                <li><a href="revievs.html">Отзывы</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="news_shares_articles.html">Новости</a></li>
+                <li><a href="news_shares_articles.html">Статьи</a></li>
+                <li><a href="news_shares_articles.html">Акции</a></li>
+              </ul>
+            </div>
+            <a class="footer-logo" href="index.html">
+              <div class="footer-logo-wrap">
+                <img src="images/footer-logo.png" alt="Logo">
+              </div>
+              <p>ROYAL RENT</p>
+            </a>
+            <div class="footer-contacts">
+              <span>Car rental. Around-the-clock.</span>
+              <span>Автопрокат круглосуточно.</span>
+              <a href="tel:88000000000">8 800 000-00-00</a>
+              <a href="mailto:info@royalrent.ru">info@royalrent.ru</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="mbox">
+          <div class="footer-bottom-wrap">
+            <div class="footer-bottom-left">
+              <div class="copyright">
+                <span>Copyright © 2016 RoyalRent. Все права защищены.</span>
+              </div>
+              <div class="social">
+                <a href="#">
+                  <img src="images/fb-icon.png" alt="Facebook">
+                </a>
+                <a href="#">
+                  <img src="images/vk-icon.png" alt="VK">
+                </a>
+                <a href="#">
+                  <img src="images/insta-icon.png" alt="Instagram">
+                </a>
+                <a href="#">
+                  <img src="images/viber-icon.png" alt="Viber">
+                </a>
+                <a href="#">
+                  <img src="images/wa-icon.png" alt="WhatsApp">
+                </a>
+              </div>
+            </div>
+            <div class="design">
+              <span>Макеты сделаны <a href="http://theparallel.ru">Parallel</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER -->
+    
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/validate_script.js" ></script>
+    
+    <!-- build:js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAD4EvtZ1QPqDgkPPt4o0hVDnkg45IvyUM"></script> 
+    <script type="text/javascript" src="js/plagins/device.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.fancybox.pack.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.formstyler.min.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.validate.min.js" ></script>
+    <script type="text/javascript" src="js/plagins/maskInput.js" ></script>
+    <script type="text/javascript" src="js/plagins/slick.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.timepicker.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery-ui.min.js" ></script>
+    
+    <!-- <script type="text/javascript" src="js/plagins/jquery.datepicker.extension.range.min.js" ></script>-->
+    <script type="text/javascript" src="js/plagins/datepicker-ru.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.secretnav.js" ></script>
+    <script type="text/javascript" src="js/plagins/modernizr.custom.25376.js" ></script>
+    <script type="text/javascript" src="js/plagins/SmoothScroll.js" ></script>
+    
+    <script type="text/javascript" src="js/plagins/jquery.mCustomScrollbar.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.mousewheel.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.mousewheel-3.0.6.js" ></script>
+    
+    
+    
+    <script type="text/javascript" src="js/basic_scripts.js" ></script>
+    <script type="text/javascript" src="js/develop/develop_2.js" ></script>
+    <script type="text/javascript" src="js/develop/develop_6.js" ></script>
+    <script type="text/javascript" src="js/develop/develop_7.js" ></script>
+    
+    <!-- endbuild -->
+    
+    <!-- /SCRIPTS -->
+
+</div>
+</body>
+</html>

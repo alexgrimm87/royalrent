@@ -1,0 +1,1714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <!-- build:css -->
+
+    <link rel="stylesheet" href="css/fancybox.css">
+    <link rel="stylesheet" href="css/formstyler.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+    <link rel="stylesheet" href="css/jquery.secretnav.css">
+     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+
+    
+    <!-- add new file here -->
+    <!-- add new file here -->
+
+    <link rel="stylesheet" href="css/zdev_0_basic.css">
+    <link rel="stylesheet" href="css/zdev_2.css">
+    <link rel="stylesheet" href="css/zdev_2_adapt.css">
+    <link rel="stylesheet" href="css/zdev_6.css">
+    <link rel="stylesheet" href="css/zdev_6_adapt.css">
+    <link rel="stylesheet" href="css/zdev_7.css">
+    <link rel="stylesheet" href="css/zdev_7_adapt.css">
+    <!-- endbuild -->
+
+    <!--[if lt IE 10]>
+    <link rel="stylesheet" href="https://rawgit.com/codefucker/finalReject/master/reject/reject.css" media="all" />
+    <script type="text/javascript" src="https://rawgit.com/codefucker/finalReject/master/reject/reject.min.js"></script>
+    <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+<div class="global-wrapper">
+    <div class="nav-mobile-menu">
+        <div class="top-block">
+            <div class="language-picker">
+                <a href="#country_picker" class="fancyboxHeading">
+                  <img src="images/russia.png">
+                  <p>Русский</p>
+                </a>
+              </div>
+              <div class="city-picker">
+                <a href="#city_picker" class="fancyboxHeading">
+                  <img src="images/city.png">
+                  <p>Cанкт-Петербург</p>
+                </a>
+              </div>
+              <div class="online-calculator">
+                <a href="#headerCalculator" class="fancyboxHeading">
+                  <img src="images/calculator.png">
+                  <p>Онлайн калькулятор</p>
+                </a>
+              </div>
+              <div class="log-in">
+                <a href="#login-menu" class="fancyboxHeading1">
+
+                  <img src="images/login.png">
+                  <p>Личный кабинет</p>
+                </a>
+              </div>
+              <div class="telephon">
+                <a href="tel:8 800 111-11-11">8 800 111-11-11</a>
+              </div>
+          </div>
+        <div class="bottom-part ">
+            <div class="main-wrap">
+              <ul calss="nav-list">
+                <li id="our-transport">
+                  <a class="open_our-transport">Наш транспорт</a>
+                </li>
+                <li id="our-services">
+                  <a class="open_our-services">Наши услуги</a>
+                </li>
+                <li >
+                  <a href="#" class="active">
+                    <img src="images/sales.png">
+                    <p>Акции</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">Тарифы</a>
+                </li> 
+                <li>
+                  <a href="#">Условия аренды</a>
+                </li>
+                <li id="about-company">
+                  <a href="#" class="open_about-company">О компании</a>
+                </li>
+                <li>
+                  <a href="#">Отзывы</a>
+                </li>
+                <li id="partners_investors">
+                  <a href="#" class="open_partners_investors">Партнерам и инвесторам</a>
+                </li>
+                <li>
+                  <a href="#">Контакты</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+        <div class="nav-mobile-close-button"></div>
+    </div>
+    <!-- HEADER -->
+    <header class="header"> 
+    	
+    		<div class="top-part">
+    			<div class="main-wrap">
+    				<div class="company-logo">
+    					<a href="/">
+    						<img src="images/white_logo.png">
+    					</a>
+    				</div>	
+    				<div class="nav-menu-adaptiv-wrap">
+    					<div class="language-picker">
+    						<a href="#country_picker" class="fancyboxHeading">
+    							<img src="images/russia.png">
+    							<p>Русский</p>
+    						</a>
+    					</div>
+    					<div class="city-picker">
+    						<a href="#city_picker" class="fancyboxHeading">
+    							<img src="images/city.png">
+    							<p>Cанкт-Петербург</p>
+    						</a>
+    					</div>
+    					<div class="online-calculator">
+    						<a href="#headerCalculator" class="fancyboxHeading">
+    							<img src="images/calculator.png">
+    							<p>Онлайн калькулятор</p>
+    						</a>
+    					</div>
+    					<div class="log-in">
+    						<a href="#login-menu" class="fancyboxHeading1">
+    
+    							<img src="images/login.png">
+    							<p>Личный кабинет</p>
+    						</a>
+    					</div>
+    					<div class="telephon">
+    						<a href="tel:8 800 111-11-11">8 800 111-11-11</a>
+    					</div>
+    				</div>
+    				<div class="mobile-nav-menu-button">
+    					<span></span>
+    					<span></span>
+    					<span></span>
+    				</div>
+    				<div class="button-wrap">
+    					<a href="#back-call" class="fancyboxHeading" >Обратный звонок</a>
+    				</div>
+    			</div>
+    		</div>
+    		<div class="bottom-part ">
+    			<div class="main-wrap">
+    				<ul calss="nav-list">
+    					<li id="our-transport">
+    						<a class="open_our-transport">Наш транспорт</a>
+    					</li>
+    					<li id="our-services">
+    						<a class="open_our-services">Наши услуги</a>
+    					</li>
+    					<li >
+    						<a href="#" class="active">
+    							<img src="images/sales.png">
+    							<p>Акции</p>
+    						</a>
+    					</li>
+    					<li>
+    						<a href="#">Тарифы</a>
+    					</li> 
+    					<li>
+    						<a href="#">Условия аренды</a>
+    					</li>
+    					<li id="about-company">
+    						<a href="#" class="open_about-company">О компании</a>
+    					</li>
+    					<li>
+    						<a href="#">Отзывы</a>
+    					</li>
+    					<li id="partners_investors">
+    						<a href="#" class="open_partners_investors">Партнерам и инвесторам</a>
+    					</li>
+    					<li>
+    						<a href="#">Контакты</a>
+    					</li>
+    				</ul>
+    			</div>
+    		</div>
+    
+    		
+    	
+    </header>
+    <!-- /HEADER -->
+
+    <!-- MAIN -->
+    <div class="main">
+        <!-- add partials here -->
+        <section class="el-header-bg business-taxi-header">
+          <h1 class="header-title header-title-white">Бизнес такси без логотипов в Санкт-Петербурге</h1>
+            <a class="mouse mouse-black" href="#">
+            <span class="dot"></span>
+          </a>
+        </section>
+        <div class="el-breadcrumbs">
+          <div class="mbox">
+            <ul>
+              <li><a href="index.html">Главная</a></li>
+              <li class="active"><a href="credit_for_rent.html">This</a></li>
+            </ul>
+          </div>
+        </div>
+		<section class="business-taxi">
+		  <div class="mbox">
+		    <div class="el-info">
+		      <div class="info-left">
+		        <h2>Бизнес такси</h2>
+		        <div class="el-info-text">
+		          <p>Аренда автомобиля в Санкт-Петербурге с нами значительно упрощается, ведь авто можно забронировать онлайн, открыв соответствующую вкладку на сайте. Вам будет предложено выбрать категорию услуги (с водителем или без, кабриолет, лимузин, микроавтобус), дату, имя и е-мейл. В графе «Ваши пожелания» вы можете оставить информацию об особенностях заказа.</p>
+		          <p>Вы можете рассчитать предварительно заказ на специальном онлайн калькуляторе, выбрав вид аренды (с водителем или без него), модель авто и сроки аренды посуточно.</p>
+		        </div>
+		        <a class="el-button calc-button" href="#">Рассчитать стоимость аренды</a>
+		      </div>
+		      <div class="info-right">
+		        <div class="info-pic business-taxi-pic">
+		          <img src="images/business-taxi.png" alt="">
+		        </div>
+		      </div>
+		    </div> 
+		  </div> 
+		</section>
+		<div class="sort-bar">
+			<div class="options">
+				<a href="javascript:void(0)" class="filter" data-slider="wrap-slider">
+					<span><img src="../images/filter.png" alt=""></span>
+					<span>Фильтр</span>
+				</a>
+				<a href="javascript:void(0)" class="reset">
+					<span><img src="../images/close-icon.png" alt=""></span>
+					<span>Сбросить</span>
+				</a>
+			</div>
+			<div class="sort">
+				<ul class="dropdown-sorting">
+				    <li>
+				        <a href="javascript:void(0)" class="main-link">
+				        	<p>Упорядочить по: <span>По умолчанию</span></p>
+				        	<span class="arrow"></span>
+				        </a>
+				        <ul>
+				        	<li><a href="#">
+					            <p>По умолчанию</p>
+					        </a></li>
+				            <li><a href="#">
+					            <p>Цене: сначала дешевые</p>
+					        </a></li>
+				            <li><a href="#">
+				            	<p>Цене: сначала дорогие</p>
+				            </a></li>
+				        </ul>
+				    </li>
+				</ul>
+				<a href="#" class="el-button">Показать спецпредложения</a>
+			</div>
+		</div>
+		<div class="content-wrap">
+            <section class="left-bar">
+            	<div class="wrap-sort">
+            		<div class="sort-item">
+            			<p>Вид аренды</p>
+            			<select name="driver" class="driver" data-placeholder="Вид аренды">
+            				<option></option>
+            				<option>С водителем</option>
+            				<option>Без водителя</option>
+            			</select>
+            		</div>
+            		<div class="sort-item">
+            			<p>Вид транспорта: <span>Премиум</span></p>
+            			<ul class="dropdown-transport">
+            			    <li>
+            			        <a href="#" class="main-link">
+            						<img src="../images/premium.png" alt=""></a>
+            			        </a>
+            			        <ul>
+            			            <li><a href="#">
+            				            <p>Премиум</p>
+            							<img src="../images/premium.png" alt=""></a>
+            						</li>
+            			            <li><a href="#">
+            			            	<p>Бизнес</p>
+            							<img src="../images/business.png" alt="">
+            			            </a></li>
+            			            <li><a href="#">
+            			            	<p>Автобус</p>
+            							<img src="../images/bus.png" alt="">
+            			            </a></li>
+            			            <li><a href="#">
+            			            	<p>Комфорт</p>
+            							<img src="../images/comfort.png" alt="">
+            			            </a></li>
+            			        </ul>
+            			    </li>
+            			</ul>
+            			<div class="arrows"><img src="../images/arrows.png" alt=""></div>
+            		</div>
+            		<div class="sort-item">
+            			<p>Марка</p>
+            			<select name="driver" class="driver" data-placeholder="Любая марка">
+            				<option></option>
+            				<option>Любая марка</option>
+            				<option>Любая марка1</option>
+            				<option>Любая марка2</option>
+            			</select>
+            		</div>
+            		<div class="sort-item">
+            			<p>Событие</p>
+            			<select name="driver" class="driver" data-placeholder="Любое событие">
+            				<option></option>
+            				<option>Любое событие</option>
+            				<option>Любое событие1</option>
+            				<option>Любое событие2</option>
+            				<option>Любое событие3</option>
+            			</select>
+            		</div>
+            		<div class="sort-item">
+            			<p>Стоимость</p>
+            			<select name="driver" class="driver" data-placeholder="Любая стоимость">
+            				<option></option>
+            				<option>200</option>
+            				<option>300</option>
+            			</select>
+            		</div>
+            		<div class="sort-item">
+            			<p>Цвет</p>
+            			<select name="driver" class="driver" data-placeholder="Любой цвет">
+            				<option></option>
+            				<option>Любой цвет</option>
+            				<option>Синий</option>
+            				<option>Черный</option>
+            				<option>Красный</option>
+            				<option>Зеленый</option>
+            				<option>Белый</option>
+            			</select>
+            		</div>
+            	</div>
+            	<div class="wrap-slider">
+            		<div class="slide-item">
+            			<div class="photo"><img src="../images/river.png" alt=""></div>
+            			<div class="name">Алексей Т.</div>
+            			<div class="city">Санкт-Петербург</div>
+            			<div class="text">Брали машину напрокат в карсфоррент, отличный сервис, все очень быстро и удобно и по ценам вполне приемлемо, есть скидки для постоянных клиентов. Пожелания процветания и дальше в вашем бизнесе!</div>
+            		</div>
+            		<div class="slide-item">
+            			<div class="photo"><img src="../images/comfortable1.png" alt=""></div>
+            			<div class="name">Алексей Т.</div>
+            			<div class="city">Санкт-Петербург</div>
+            			<div class="text">Брали машину напрокат в карсфоррент, отличный сервис, все очень быстро и удобно и по ценам вполне приемлемо, есть скидки для постоянных клиентов. Пожелания процветания и дальше в вашем бизнесе!</div>
+            		</div>
+            		<div class="slide-item">
+            			<div class="photo"><img src="../images/comfortable2.png" alt=""></div>
+            			<div class="name">Алексей Т.</div>
+            			<div class="city">Санкт-Петербург</div>
+            			<div class="text">Брали машину напрокат в карсфоррент, отличный сервис, все очень быстро и удобно и по ценам вполне приемлемо, есть скидки для постоянных клиентов. Пожелания процветания и дальше в вашем бизнесе!</div>
+            		</div>
+            		<div class="slide-item">
+            			<div class="photo"><img src="../images/comfortable3.png" alt=""></div>
+            			<div class="name">Алексей Т.</div>
+            			<div class="city">Санкт-Петербург</div>
+            			<div class="text">Брали машину напрокат в карсфоррент, отличный сервис, все очень быстро и удобно и по ценам вполне приемлемо, есть скидки для постоянных клиентов. Пожелания процветания и дальше в вашем бизнесе!</div>
+            		</div>
+            	</div>
+            	<a href="revievs.html" class="read-all">
+            		<span class="icon"><img src="../images/eye-one.png" alt=""></span>
+            		<span class="text">Читать все отзывы</span>
+            	</a>
+            </section>
+            <div class="all-cars">
+            	<div class="car-item">
+            		<div class="sale">
+            			<span>скидка</span>
+            			<span><b>35</b>%</span>
+            		</div>
+            		<div class="photo"><img src="../images/bmw.png" alt=""></div>
+            		<a href="#photo-slider" class="view-photo">
+            			<span><img src="../images/pic-icon.png" alt=""></span>
+            			<span>Посмотреть реальные фото</span>
+            		</a>
+            		<p>BMW 3er</p>
+            		<p>от 3 000 руб. в час</p>
+            		<div class="colors">
+            			<div class="color white"></div>
+            			<div class="color black"></div>
+            			<div class="color blue"></div>
+            			<div class="color red"></div>
+            			<div class="color green"></div>
+            		</div>
+            		<a href="step1_driver.html" class="el-button">Взять в аренду</a>
+            	</div>
+            	<div class="car-item">
+            		<div class="photo"><img src="../images/rolls-roys.png" alt=""></div>
+            		<a href="#photo-slider" class="view-photo fancybox-form">
+            			<span><img src="../images/pic-icon.png" alt=""></span>
+            			<span>Посмотреть реальные фото</span>
+            		</a>
+            		<p>BMW 3er</p>
+            		<p>от 3 000 руб. в час</p>
+            		<div class="colors">
+            			<div class="color white"></div>
+            			<div class="color black"></div>
+            		</div>
+            		<a href="step1_driver.html" class="el-button">Взять в аренду</a>
+            	</div>
+            	<div class="car-item">
+            		<div class="photo"><img src="../images/bmw.png" alt=""></div>
+            		<a href="#photo-slider" class="view-photo fancybox-form">
+            			<span><img src="../images/pic-icon.png" alt=""></span>
+            			<span>Посмотреть реальные фото</span>
+            		</a>
+            		<p>BMW 3er</p>
+            		<p>от 3 000 руб. в час</p>
+            		<div class="colors">
+            			<div class="color white"></div>
+            			<div class="color black"></div>
+            			<div class="color blue"></div>
+            			<div class="color red"></div>
+            			<div class="color green"></div>
+            		</div>
+            		<a href="step1_driver.html" class="el-button">Взять в аренду</a>
+            	</div>
+            	<div class="car-item">
+            		<div class="sale">
+            			<span>скидка</span>
+            			<span><b>35</b>%</span>
+            		</div>
+            		<div class="photo"><img src="../images/bmw.png" alt=""></div>
+            		<a href="#photo-slider" class="view-photo fancybox-form">
+            			<span><img src="../images/pic-icon.png" alt=""></span>
+            			<span>Посмотреть реальные фото</span>
+            		</a>
+            		<p>BMW 3er</p>
+            		<p>от 3 000 руб. в час</p>
+            		<div class="colors">
+            			<div class="color white"></div>
+            			<div class="color black"></div>
+            			<div class="color blue"></div>
+            			<div class="color red"></div>
+            			<div class="color green"></div>
+            		</div>
+            		<a href="step1_driver.html" class="el-button">Взять в аренду</a>
+            	</div>
+            	<div class="car-item">
+            		<div class="photo"><img src="../images/rolls-roys.png" alt=""></div>
+            		<a href="#photo-slider" class="view-photo fancybox-form">
+            			<span><img src="../images/pic-icon.png" alt=""></span>
+            			<span>Посмотреть реальные фото</span>
+            		</a>
+            		<p>BMW 3er</p>
+            		<p>от 3 000 руб. в час</p>
+            		<div class="colors">
+            			<div class="color white"></div>
+            			<div class="color black"></div>
+            		</div>
+            		<a href="step1_driver.html" class="el-button">Взять в аренду</a>
+            	</div>
+            	<div class="car-item">
+            		<div class="photo"><img src="../images/bmw.png" alt=""></div>
+            		<a href="#photo-slider" class="view-photo fancybox-form">
+            			<span><img src="../images/pic-icon.png" alt=""></span>
+            			<span>Посмотреть реальные фото</span>
+            		</a>
+            		<p>BMW 3er</p>
+            		<p>от 3 000 руб. в час</p>
+            		<div class="colors">
+            			<div class="color white"></div>
+            			<div class="color black"></div>
+            			<div class="color blue"></div>
+            			<div class="color red"></div>
+            			<div class="color green"></div>
+            		</div>
+            		<a href="step1_driver.html" class="el-button">Взять в аренду</a>
+            	</div>
+            </div>
+        </div>
+        <section class="seo-block">
+          <div class="mbox">
+            <div class="seo-wrap">
+              <div class="seo-pic">
+                <img src="images/seo.png" alt="">
+              </div>
+            <div class="seo-info">
+              <h2>SEO-текст</h2>
+              <p>Аренда автомобиля в Санкт-Петербурге с нами значительно упрощается, ведь авто можно забронировать онлайн, открыв соответствующую вкладку на сайте. Вам будет предложено выбрать категорию услуги (с водителем или без, кабриолет, лимузин, микроавтобус), дату, имя и е-мейл. В графе «Ваши пожелания» вы можете оставить информацию об особенностях заказа.</p>
+              <p>Вы можете рассчитать предварительно заказ на специальном онлайн калькуляторе, выбрав вид аренды (с водителем или без него), модель авто и сроки аренды посуточно. Чем больше количество дней вам нужен автомобиль в аренду, тем больше вы экономите, хотя цена на аренду автомобиля у нас и так привлекательна. Также просим вас указать основные контакты для связи, включая номер телефона, все данные в безопасности.</p>
+              <p>Получите скидку 5% на последующие услуги нашей компании сделав свое селфи на фоне нашего автомобиля и отправив на наш почтовый ящик!</p>
+            </div>  
+            </div>
+          </div>
+        </section>
+        <section class="subscribe-block">
+          <div class="mbox">
+            <div class="subscribe-wrap">
+              <div class="subscribe-pic">
+                <img src="images/mail.png" alt="Mail">
+              </div>
+              <div class="subscribe-right">
+                <h2>Подпишитесь и экономьте узнавая о всех скидках и акциях первым!</h2>
+                <form action="/" method="post">
+                  <div class="form-field">
+                    <input type="email" name="subscribe" placeholder="Введите свой e-mail" required />
+                  </div>
+                  <button class="el-button" type="supmit">Подписаться</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="el-services">
+          <div class="services-wrap">
+            <ul>
+              <li><a href="#" class="open_our-services">Показать все наши услуги</a></li>
+              <li><a href="#">Деловые поездки</a></li>
+              <li><a href="#">Транспорт на свадьбу</a></li>
+              <li><a href="#">Оформление транспорта</a></li>
+              <li><a href="#">Встреча из роддома</a></li>
+              <li><a href="#">Романическая встреча</a></li>
+            </ul>
+          </div>
+        </section>
+    </div>
+    <!-- /MAIN -->
+
+    <div class="hidden-block">
+     
+        <div id="call_success">
+            <div class="call-success">
+                 <div class="call_success">
+                     <div class="call-title">Спасибо за заявку!</div>
+                     <div class="call-subtitle">Мы свяжемся с Вами в ближайшее время</div>
+                 </div>
+            </div>
+        </div>
+    
+        <div id="call-popup">
+            <form action="ajax.php" name="" class="contact-form">
+                <div class="contact-form-title">
+                    <h5>В ближайшее время мы свяжемся с вами</h5>
+                </div>
+                <div class="contact-form-row cfix">
+                    <div class="contact-form-item">
+                        <div class="contact-form-item-input form_row">
+                            <div class="form_input">
+                                <input type="text" name="contact_name" required="required" value="" placeholder="Ваше Имя">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form-item">
+                        <div class="contact-form-item-input form_row">
+                            <div class="form_input">
+                                <input type="text" name="contact_tel" value="" required="required" placeholder="Ваш телефон" class="tel-mask">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-row cfix">
+                    <div class="contact-form-item">
+                        <button type="submit" class="el-button contact-submit">
+                            <span>Отправить</span>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    
+        <div id="corp-contract">
+          <h5>Запрос корпоративного договора</h5>
+          <form class="corp-contract-form" action="/" method="post">
+            <div class="form-field">
+              <input type="text" name="company" placeholder="Название вашей компании" required />
+            </div>
+            <div class="form-field">
+              <input type="text" name="contactFace" placeholder="Контактное лицо" required />
+            </div>
+            <div class="form-field">
+              <input type="text" name="phone" placeholder="Контактный телефон" required />
+            </div>
+            <div class="form-field">
+              <input type="email" name="email" placeholder="E-mail" required />
+            </div>
+            <b>Выберите виды обслуживания:</b>
+            <div class="checkbox-wrap">
+              <div class="checkbox-col">
+                <div class="check-field">
+                  <input id="avia" type="checkbox" name="avia"> 
+                  <label for="avia"><span></span>Авиаперевозки</label>
+                </div>
+                <div class="check-field">
+                  <input id="vip" type="checkbox" name="vip"> 
+                  <label for="vip"><span></span>VIP-обслуживание</label>
+                </div>
+                <div class="check-field">
+                  <input id="ground" type="checkbox" name="ground"> 
+                  <label for="ground"><span></span>Наземное обслуживание</label>
+                </div>
+              </div>
+              <div class="checkbox-col">
+                <div class="check-field">
+                  <input id="train" type="checkbox" name="train"> 
+                  <label for="train"><span></span>Железнодорожные перевозки</label>
+                </div>
+                <div class="check-field">
+                  <input id="hotels" type="checkbox" name="hotels"> 
+                  <label for="hotels"><span></span>Отели</label>
+                </div>
+                <div class="check-field">
+                  <input id="visaSup" type="checkbox" name="visaSup"> 
+                  <label for="visaSup"><span></span>Визовая поддержка</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-field">
+              <input type="text" name="volumeOrders" placeholder="Ориентировочный объем заказов в месяц (необязательно)">
+            </div>
+            <div class="form-field">
+              <textarea name="addComments" placeholder="Дополнительные комментарии (необязательно)"></textarea>
+            </div>
+            <div class="button-center">
+              <button class="el-button" type="submit">Отправить</button>
+            </div>
+          </form>
+        </div>
+    
+        <div id="operational-request">
+          <h5>В ближайшее время мы свяжемся с вами</h5>
+          <form class="request-form" action="/" method="post">
+            <div class="request-wrap">
+              <div class="request-col">
+                <div class="form-field">
+                  <span>Тариф</span>
+                  <select id="tariff-select" class="choose choose-ph" data-placeholder="Выберите тариф">
+                    <option></option>
+                    <option>Пункт 1</option>
+                    <option>Пункт 2</option>
+                  </select>
+                </div>
+                <div class="request-row">
+                  <div class="form-field">
+                    <span>Марка автомобиля</span>
+                    <select id="brand-select" class="choose choose-ph" data-placeholder="Выберите марку">
+                      <option></option>
+                      <option>Пункт 1</option>
+                      <option>Пункт 2</option>
+                      <option>Пункт 3</option>
+                    </select>
+                  </div>
+                  <div class="form-field">
+                    <span>Модель автомобиля</span>
+                    <select id="model-select" class="choose choose-ph" data-placeholder="Выберите модель">
+                      <option></option>
+                      <option>Пункт 1</option>
+                      <option>Пункт 2</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="form-field">
+                  <span>Ваше ФИО</span>
+                  <input type="text" name="name" placeholder="Введите ФИО" required />
+                </div>
+                <div class="form-field">
+                  <span>Ваш номер телефона</span>
+                  <input id="phone" type="text" name="phone" placeholder="Введите номер телефона" required />
+                </div>
+                <div class="form-field">
+                </div>
+              </div>
+              <div class="request-col">
+                <div class="form-field">
+                  <span>Где получить автомобиль</span>
+                  <select id="get-select" class="choose choose-ph" data-placeholder="Выберите место">
+                    <option></option>
+                    <option>Пункт 1</option>
+                    <option>Пункт 2</option>
+                  </select>
+                </div>
+                <div class="form-field">
+                  <span>Дата и время начала аренды</span>
+                  <input type="text" name="beginDate">
+                </div>
+                <div class="form-field">
+                  <span>Где вернуть автомобиль</span>
+                  <select id="return-select" class="choose choose-ph" data-placeholder="Выберите место">
+                    <option></option>
+                    <option>Пункт 1</option>
+                    <option>Пункт 2</option>
+                  </select>
+                </div>
+                <div class="form-field">
+                  <span>Дата и время окончания аренды</span>
+                  <input type="text" name="endDate">
+                </div>
+              </div>
+            </div>
+            <button class="el-button" type="submit">Отправить</button>
+          </form>
+        </div>
+    
+        <div id="add-review">
+            <div class="write-rev">Напишите свой отзыв о нас</div>
+            <form action="/" class="add-review add-review-form">
+                <input type="text" class="name" placeholder="Имя" required />
+                <input type="text" class="name" placeholder="Фамилия" required />
+                <input type="text" class="name" placeholder="Ваш город" required />
+                <select name="choose" class="choose" data-placeholder="Выберите вид транспорта, который вы арендовали">
+                    <option></option>
+                    <option>Item 1</option>
+                    <option>Item 2</option>
+                    <option>Item 3</option>
+                    <option>Item 4</option>
+                    <option>Item 5</option>
+                </select>
+                <select name="choose" class="choose" data-placeholder="Выберите марку транспорта, который вы арендовали">
+                    <option></option>
+                    <option>Item 2</option>
+                    <option>Item 3</option>
+                </select>
+                <select name="choose" class="choose" data-placeholder="Выберите модель транспорта, который вы арендовали">
+                    <option></option>
+                    <option>Item 2</option>
+                    <option>Item 3</option>
+                    <option>Item 4</option>
+                </select>
+                <select name="choose" class="choose" data-placeholder="С водителем или без">
+                    <option></option>
+                    <option>С водителем</option>
+                    <option>Без водителя</option>
+                </select>
+                <div class="wrap-evaluation">
+                    <span>Ваша оценка:</span>
+                    <input name="eval" type="radio" id="five-star">
+                    <label for="five-star" class="stars-label"></label>
+                    <input name="eval" type="radio" id="four-star">
+                    <label for="four-star" class="stars-label"></label>
+                    <input name="eval" type="radio" id="three-star">
+                    <label for="three-star" class="stars-label"></label>
+                    <input name="eval" type="radio" id="two-star">
+                    <label for="two-star" class="stars-label"></label>
+                    <input name="eval" type="radio" id="one-star">
+                    <label for="one-star" class="stars-label"></label>
+                </div>
+                <textarea name="coment" class="coment" placeholder="Ваш комментарий" rows="10"></textarea>
+                <div class="wrap-send">
+                    <div class="not-robot"><img src="../images/captcha.png" alt=""></div>
+                    <button type="submit" class="el-button" href="#">Отправить</button>
+                </div>
+            </form>
+        </div>
+    
+        <div id="order-call">
+            <div class="write-rev">В ближайшее время мы свяжемся с вами</div>
+            <form action="" class="add-review">
+                <input type="text" class="name" placeholder="Ваше имя">
+                <input type="text" class="name" placeholder="Ваш телефон">
+                <a class="el-button" href="#">Отправить</a>
+            </form>
+        </div>
+    
+        <div id="country_picker">
+            <div class="main-heading">
+                <h3>Choose you country or region.</h3>
+            </div>
+            <div class="countries-heading">
+                    <h4>Europe</h4>
+                </div>
+            <div class="countris">
+                <div class="countri-item">
+                    <a href="#">
+                        <img src="images/russia1.png">
+                        Россия
+                    </a>
+                </div>
+                 <div class="countri-item">
+                    <a href="#">
+                        <img src="images/turkey.png">
+                        Türkiye
+                    </a>
+                </div>
+    
+    
+            </div>
+        </div>
+    
+    
+        <div id="city_picker">
+            <div class="main-heading">
+                <h3>Выберите свой город</h3>
+            </div>
+            <div class="countries-heading">
+                <h4>Выберите из списка или воспользуйтесь поиском</h4>
+            </div>
+            <form  name="option-city"class="city-picker-form">
+                <select name="city" class="city-select choose">
+                    <option disabled>Выберите из списка</option>
+                    <option >Санкт-Петербург</option>
+                    <option>Санкт-Петербург</option>
+                </select>
+    
+                <input type="search" name="search-city" placeholder="Введите название города" class="city-search">
+                <button class="standartYellow">Сохранить</button>
+            </form>
+        </div>
+    
+        
+        <div id="headerCalculator">
+            <div class="calculator-tab-wrapper">
+                <div class="tabs-line">
+                    <div class="tab chosen">Расчет без водителя</div>
+                    <div class="tab">Расчет с водителем</div>
+                </div>
+                    <div class="pages-line">
+                        <form class="driver-cont">  
+                            
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Город</h4>                        
+                                </div>
+                                <select name="calculator-city" class="calculator-city-select choose" required="required">
+                                    <option></option>
+                                    <!-- <option disabled>Выберите из списка</option> -->
+                                    <option val="StPeterburg">Санкт-Петербург</option>
+                                    <option val="Moscov">Москва</option>
+                                </select>
+                            </div>
+    
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Место подачи автомобиля</h4>                        
+                                </div>
+                                <select name="calculator-place" class="calculator-place-select choose" required="required">
+                                    <option></option>
+                                    <!-- <option disabled>Выберите место</option> -->
+                                    <option val="place1rent">Санкт-Петербург Локация 1</option>
+                                    <option val="place2rent">Санкт-Петербург Локация 2</option>
+                                </select>
+                            </div>
+    
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Место возврата автомобиля</h4>                        
+                                </div>
+                                <select name="calculator-place-back" class="calculator-place-back-select choose" required="required">
+                                    <option></option>
+                                   <!--  <option disabled>Выберите место</option> -->
+                                    <option val="place1back">Санкт-Петербург Локация 1</option>
+                                    <option val="place2back">Санкт-Петербург Локация 2</option>
+                                </select>
+                            </div>
+    
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Оплата</h4>                        
+                                </div>
+                                <select name="calculator-place-back" class="calculator-place-back-select choose" required="required">
+                                    <option></option>
+                                    <!-- <option disabled>Выберите место</option> -->
+                                    <option val="place1back">Санкт-Петербург Локация 1</option>
+                                    <option val="place2back">Санкт-Петербург Локация 2</option>
+                                </select>
+                            </div>
+    
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Дата и время начала аренды</h4>                        
+                                </div>
+                                <div class="input-field start-rent">
+                                    <div class="left-part">
+                                        <img src="images/calendar-ico.png">
+                                        <p>xx/xx/xx</p>
+                                    </div>
+                                    <span></span>
+                                    <div class="right-part">
+                                        <img src="images/clock-ico.png">
+                                        <p><span>00</span>:<span>00</span></p>
+                                    </div>
+                                </div>
+                                <div class="dropdown-datepicker">
+                                    <div class="datepicker-heading">
+                                        <div class="head-tab clicked">
+                                            <img src="images/calendar-ico.png">
+                                            <h4>Выбор даты</h4>
+                                        </div>
+                                        <div class="head-tab">
+                                            <img src="images/clock-ico.png">
+                                            <h4>Выбор времени</h4>
+                                        </div>
+                                    </div>
+    
+                                    <div class="main-date-content">
+                                        <div class="main-date-tab">                                        
+                                            <div class="datepicker-init" id="nonedriver-datepicker-start"></div>
+                                            <input type="text" name="datepicker-start" id="for-nonedriver-datepicker-start" required="required">
+                                        </div>
+                                        <div class="main-date-tab">
+                                            <label>
+                                            <h4>Часы</h4>
+                                            <input type="text" name="hourpicker-start" class="timepicker-init timepicker-hours" placeholder="Выберите" id="nonedriver-hourpicker-start" required="required">
+                                            </label>
+                                            <label>
+                                            <h4>Минуты</h4>
+                                             <input type="text" name="minutepicker-start" class="timepicker-init timepicker-minutes" placeholder="Выберите" id="nonedriver-minutepicker-start" required="required">
+                                             </label>
+                                             <!-- <div class="timepicker-init"></div> -->
+                                        </div>
+                                    </div>
+                                    <button class="datepicker-button">Принять</button>
+                                </div>
+                                <div class="error-message-hour">
+                                        <p>
+                                            Нельзя продолжить, так как вы не выбрали дату  
+                                        </p>
+                                </div>
+                                <div class="error-message-minutes">
+                                    <p>
+                                        Нельзя продолжить, так как вы не выбрали время  
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Дата и время конца аренды</h4>                        
+                                </div>
+                                <div class="input-field end-rent">
+                                    <div class="left-part">
+                                        <img src="images/calendar-ico.png">
+                                        <p>xx/xx/xx</p>
+                                    </div>
+                                    <span></span>
+                                    <div class="right-part">
+                                        <img src="images/clock-ico.png">
+                                        <p><span>00</span>:<span>00</span></p>
+                                    </div>
+                                </div>
+                                <div class="dropdown-datepicker">
+                                    <div class="datepicker-heading">
+                                        <div class="head-tab clicked">
+                                            <img src="images/calendar-ico.png">
+                                            <h4>Выбор даты</h4>
+                                        </div>
+                                        <div class="head-tab">
+                                            <img src="images/clock-ico.png">
+                                            <h4>Выбор времени</h4>
+                                        </div>
+                                    </div>
+                                    <div class="main-date-content">
+                                        <div class="main-date-tab">                                        
+                                            <div class="datepicker-init" id="nonedriver-datepicker-end"></div>
+                                            <input type="text" name="datepicker-end" id="for-nonedriver-datepicker-end" required="required">
+                                        </div>
+                                        <div class="main-date-tab">
+                                            <label>
+                                                <h4>Часы</h4>
+                                                <input type="text" name="hourpicker-end" class="timepicker-init timepicker-hours" placeholder="Выберите" id="nonedriver-hourpicker-end" required="required">
+                                            </label>
+                                            <label>
+                                                 <h4>Минуты</h4>
+                                                 <input type="text" name="minutepicker-end" class="timepicker-init timepicker-minutes" placeholder="Выберите" id="nonedriver-minutepicker-end" required="required">
+                                             </label>
+                                             <!-- <div class="timepicker-init"></div> -->
+                                        </div>
+                                    </div>
+                                    <button class="datepicker-button">Принять</button>
+                                </div>
+                            </div>
+    
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Вид транспорта</h4>                        
+                                </div>
+                                <select name="calculator-car-type" class="calculator-car-type-select choose" required="required">
+                                    <option></option>
+                                   <!--  <option disabled>Выберите вид транспорта</option> -->
+                                    <option val="car">Легковой</option>
+                                    <option val="bus">Автобус</option>
+                                </select>
+                            </div>
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Марка</h4>                        
+                                </div>
+                                <select name="calculator-car-brand" class="calculator-car-brend choose" required="required ">
+                                    <option></option>
+                                   <!--  <option disabled>Выберите марку транспорта</option> -->
+                                    <option val="Volkswagen">Volkswagen</option>
+                                    <option val="Mersedes">Mersedes</option>
+                                </select>
+                            </div>
+    
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Модель</h4>                        
+                                </div>
+                                <select name="calculator-car-model" class="calculator-car-model choose" required="required">
+                                    <option></option>
+                                    <!-- <option disabled>Выберите модель транспорта</option> -->
+                                    <option val="model1">Volkswagen model1</option>
+                                    <option val="model2">Volkswagen model1</option>
+                                </select>
+                            </div>
+    
+                            <div class="pages-line-item bottom-total">
+                               <div class="image-wrap">
+                                   <img src="images/car_example.png">
+                               </div>
+                               <div class="score">
+                                   <div class="heading">
+                                       <h3>Итого</h3>
+                                   </div>
+                                   <div class="border-wrap">
+                                       <div class="total">
+                                           <p>15 500 руб.</p>
+                                       </div>
+                                       <div class="description">
+                                           <p>Бесплатная подача или возврат в аэропорту Пулково или на Московском вокзале с 9 до 21</p>
+                                       </div>
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="button-wrap">
+                                <button class="standartYellow">Взять в аренду</button>                        
+                            </div>
+                        </form>
+                    </div>
+                   
+                    <div class="pages-line">
+                        <form class="none-driver-cont">  
+                            
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Город</h4>                        
+                                </div>
+                                <select name="calculator-city" class="calculator-city-select choose" required="required">
+                                    <option></option>
+                                    <!-- <option disabled>Выберите из списка</option> -->
+                                    <option val="StPeterburg">Санкт-Петербург</option>
+                                    <option val="Moscov">Москва</option>
+                                </select>
+                            </div>
+    
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Место подачи автомобиля</h4>                        
+                                </div>
+                                <select name="calculator-place" class="calculator-place-select choose" required="required">
+                                    <option></option>
+                                   <!--  <option disabled>Выберите место</option> -->
+                                    <option val="place1rent">Санкт-Петербург Локация 1</option>
+                                    <option val="place2rent">Санкт-Петербург Локация 2</option>
+                                </select>
+                            </div>
+    
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Место возврата автомобиля</h4>                        
+                                </div>
+                                <select name="calculator-place-back" class="calculator-place-back-select choose" required="required">
+                                    <option></option>
+                                    <!-- <option disabled>Выберите место</option> -->
+                                    <option val="place1back">Санкт-Петербург Локация 1</option>
+                                    <option val="place2back">Санкт-Петербург Локация 2</option>
+                                </select>
+                            </div>
+    
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Оплата</h4>                        
+                                </div>
+                                <select name="calculator-place-back" class="calculator-place-back-select choose"   required="required">
+                                    <option></option>
+                                    <option val="cash">Наличными</option>
+                                    <option val="cashless">НеНаличными</option>
+                                </select>
+                            </div>
+    
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Дата и время начала аренды</h4>                        
+                                </div>
+                                <div class="input-field start-rent">
+                                    <div class="left-part">
+                                        <img src="images/calendar-ico.png">
+                                        <p>xx/xx/xx</p>
+                                    </div>
+                                    <span></span>
+                                    <div class="right-part">
+                                        <img src="images/clock-ico.png">
+                                        <p><span>00</span>:<span>00</span></p>
+                                    </div>
+                                </div>
+                                <div class="dropdown-datepicker">
+                                    <div class="datepicker-heading">
+                                        <div class="head-tab clicked">
+                                            <img src="images/calendar-ico.png">
+                                            <h4>Выбор даты</h4>
+                                        </div>
+                                        <div class="head-tab">
+                                            <img src="images/clock-ico.png">
+                                            <h4>Выбор времени</h4>
+                                        </div>
+                                    </div>
+                                    <div class="main-date-content">
+                                        <div class="main-date-tab">
+                                            <input type="text" name="datepicker-start" id="for-driver-datepicker-start" required="required">
+                                            <div class="datepicker-init" id="driver-datepicker-start"></div>
+                                        </div>
+                                        <div class="main-date-tab">
+                                            <label>
+                                            <h4>Часы</h4>
+                                            <input type="text" name="hourpicker-start" class="timepicker-init timepicker-hours" placeholder="Выберите" id="driver-hourpicker-start" required="required">
+                                            </label>
+                                            <label>
+                                            <h4>Минуты</h4>
+                                             <input type="text" name="minutespicker-start" class="timepicker-init timepicker-minutes" placeholder="Выберите" id="driver-minutespicker-start" required="required">
+                                             </label>
+                                             <!-- <div class="timepicker-init"></div> -->
+                                        </div>
+                                    </div>
+                                    <button class="datepicker-button">Принять</button>
+                                </div>
+                                <div class="error-message-hour">
+                                        <p>
+                                            Нельзя продолжить, так как вы не выбрали дату  
+                                        </p>
+                                </div>
+                                <div class="error-message-minutes">
+                                    <p>
+                                        Нельзя продолжить, так как вы не выбрали время  
+                                    </p>
+                                </div>
+                            </div>
+    
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Дата и время конца аренды</h4>                        
+                                </div>
+                                <div class="input-field end-rent">
+                                    <div class="left-part">
+                                        <img src="images/calendar-ico.png">
+                                        <p>xx/xx/xx</p>
+                                    </div>
+                                    <span></span>
+                                    <div class="right-part">
+                                        <img src="images/clock-ico.png">
+                                        <p><span>00</span>:<span>00</span></p>
+                                    </div>
+                                </div>
+                                <div class="dropdown-datepicker">
+                                    <div class="datepicker-heading">
+                                        <div class="head-tab clicked">
+                                            <img src="images/calendar-ico.png">
+                                            <h4>Выбор даты</h4>
+                                        </div>
+                                        <div class="head-tab">
+                                            <img src="images/clock-ico.png">
+                                            <h4>Выбор времени</h4>
+                                        </div>
+                                    </div>
+                                    <div class="main-date-content">
+                                        <div class="main-date-tab">
+                                            <input type="text" name="datepicker-end" id="for-driver-datepicker-end" required="re">
+                                            <div class="datepicker-init" id="driver-datepicker-end"></div>
+                                        </div>
+                                        <div class="main-date-tab">
+                                            <label>
+                                            <h4>Часы</h4>
+                                            <input type="text" name="hourpicker-end" class="timepicker-init timepicker-hours" placeholder="Выберите" id="driver-hourpicker-end" required="required">
+                                            </label>
+                                            <label>
+                                            <h4>Минуты</h4>
+                                             <input type="text" name="minutespicker-end" class="timepicker-init timepicker-minutes" placeholder="Выберите" id="driver-minutespicker-end" required="required">
+                                             </label>
+                                             <!-- <div class="timepicker-init"></div> -->
+                                        </div>
+                                    </div>
+                                    <button class="datepicker-button">Принять</button>
+                                </div>
+                            </div>
+    
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Вид транспорта</h4>                        
+                                </div>
+                                <select name="calculator-car-type" class="calculator-car-type-select choose" required="required">
+                                    <option></option>
+                                   <!--  <option disabled>Выберите вид транспорта</option> -->
+                                    <option val="car">Легковой</option>
+                                    <option val="bus">Автобус</option>
+                                </select>
+                            </div>
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Марка</h4>                        
+                                </div>
+                                <select name="calculator-car-brand" class="calculator-car-brend choose" required="required">
+                                    <option></option>
+                                   <!--  <option disabled>Выберите марку транспорта</option> -->
+                                    <option val="Volkswagen">Volkswagen</option>
+                                    <option val="Mersedes">Mersedes</option>
+                                </select>
+                            </div>
+    
+                            <div class="page-line-item">
+                                <div class="heading">
+                                    <h4>Модель</h4>                        
+                                </div>
+                                <select name="calculator-car-model" class="calculator-car-model choose" required="required">
+                                    <option></option>
+                                    <!-- <option disabled>Выберите модель транспорта</option> -->
+                                    <option val="model1">Volkswagen model1</option>
+                                    <option val="model2">Volkswagen model1</option>
+                                </select>
+                            </div>
+    
+                            <div class="pages-line-item bottom-total">
+                               <div class="image-wrap">
+                                   <img src="images/car_example.png">
+                               </div>
+                               <div class="score">
+                                   <div class="heading">
+                                       <h3>Итого</h3>
+                                   </div>
+                                   <div class="border-wrap">
+                                       <div class="total">
+                                           <p>15 500 руб.</p>
+                                       </div>
+                                       <div class="description">
+                                           <p>Бесплатная подача или возврат в аэропорту Пулково или на Московском вокзале с 9 до 21</p>
+                                       </div>
+                                   </div>
+                               </div>
+                            </div>
+                            <div class="button-wrap">
+                                <button class="standartYellow">Взять в аренду</button>                        
+                            </div>
+                        </form>
+                    </div>
+                    
+            </div>
+        </div>
+    
+    
+        <nav class="our-transport-nav">
+            <div class="our-transport-nav-tabs">
+                <div class="our-transport-nav-tab tabbed">
+                    С водителем
+                </div>
+                <div class="our-transport-nav-tab">
+                    Без водителя
+                </div>
+            </div>
+            <div class="our-transport-nav-pages">    
+                <div class="our-transport-nav-page">
+                    <a href="#" class="ignor">
+                        <img src="images/wedding.png">
+                        <p>Свадебные автомобили</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/premium-nav.png">
+                        <p>Премиум</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/representative-nav.png">
+                        <p>Представительские</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/business-nav.png">
+                        <p>Бизнес</p>
+                    </a>
+                    
+                    <a href="#" class="ignor">
+                        <img src="images/comfort-nav.png">
+                        <p>Комфорт</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/SUV-nav.png">
+                        <p>Внедорожники</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/VAN-nav.png">
+                        <p>Микроавтобусы</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/limo-nav.png">
+                        <p>Лимузины</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/retro_limo-nav.png">
+                        <p>Ретро-лимузины</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/cabrio-nav.png">
+                        <p>Кабриолеты</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/retro_cabrio-nav.png">
+                        <p>Ретро-кабриолеты</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/retro-nav.png">
+                        <p>Ретро</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/bus-nav.png">
+                        <p>Автобусы от 27 до 55 мест</p>
+                    </a>
+                     <a href="#" class="ignor">
+                        <img src="images/boat-nav.png">
+                        <p>Катера и яхты</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/heli-nav.png">
+                        <p>Вертолеты</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/busines-aviation-nav.png">
+                        <p>Бизнес-авиация</p>
+                    </a>
+                    
+                   
+                </div>
+                <div class="our-transport-nav-page">
+                    <a href="#" class="ignor">
+                        <img src="images/econom.png">
+                        <p>Эконом</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/comfort-nav.png">
+                        <p>Комфорт</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/business-nav.png">
+                        <p>Бизнес</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/representative-nav.png">
+                        <p>Представительские</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/SUV-nav.png">
+                        <p>Внедорожники</p>
+                    </a>
+                    <a href="#" class="ignor">
+                        <img src="images/VAN-nav.png">
+                        <p>Микроавтобусы</p>
+                    </a>                
+                    <a href="#" class="ignor">
+                        <img src="images/commercial.png">
+                        <p>Комерческий транспорт</p>
+                    </a>
+                    
+                    
+                    
+                    
+                </div>
+            </div>
+        </nav>
+        
+        <div class="wrapper-our-servicesjs">
+            <nav class="our-services-nav">
+                <div class=" menu-list-item">
+                <!-- services -->
+                    <div class="heading our-services-heading">
+    
+                        <h3>Услуги</h3>
+                    </div>
+                    <ul>               
+                        <li><a href="#">Экскурсии и индивидуальные туры</a></li>
+                        <li><a href="#">Фотосессия с эксклюзивным автомобилем</a></li>
+                        <li><a href="#">Деловые поездки</a></li>
+                        <li><a href="#">Трансфер в аэропорт Пулково</a></li>
+                        <li><a href="#">Прогулки на кабриолетах</a></li>
+                        <li><a href="#">Транспорт на свадьбу</a></li>
+                        <li><a href="#">Оформление транспорта</a></li>
+                        <li><a href="#">Встреча из роддома</a></li>
+                        <li><a href="#">День рождения или юбилей </a></li>
+                        <li><a href="#">Романтическая встреча</a></li>
+                        <li><a href="#">Трансфер ж/д и речной вокзалы</a></li>
+                        <li><a href="#">Аренда в кредит</a></li>
+                        <li><a href="#">Автомобиль на ПМЭФ</a></li>
+                        <li><a href="#">Автомобиль на юридический форум</a></li>
+                        <li><a href="#">Аренда с выкупом</a></li>                
+                    </ul>
+                </div>
+    
+                <div class=" menu-list-item">
+                <!-- legal_entities -->
+                    <div class="heading our-services-heading">
+                        <h3>Юридическим лицам</h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="">Развозка сотрудников</a>
+                        </li>
+                         <li>
+                            <a href="">Бизнес такси без логотипов</a>
+                        </li>
+                         <li>
+                            <a href="">VIP-сопровождение</a>
+                        </li>
+                         <li>
+                            <a href="">Организация мероприятий</a>
+                        </li>
+                         <li>
+                            <a href="">Заказ VIP залов</a>
+                        </li>
+                         <li>
+                            <a href="">Встреча у трапа самолета с табличкой</a>
+                        </li>
+                         <li>
+                            <a href="">Длительная аренда</a>
+                        </li>
+                         <li>
+                            <a href="">Бизнес авиация</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    
+        <div class="wrapper-about-companyjs">
+            <nav class="about-company-nav">          
+                <ul>               
+                    <li><a href="#">О компании</a></li>
+                    <li><a href="#">Новости компании</a></li>
+                    <li><a href="#">Полезные статьи</a></li>                       
+                </ul>           
+            </nav>
+        </div>
+    
+        <div class="wrapper-partners_investorsjs">
+            <nav class="partners_investors-nav">           
+                <ul>               
+                    <li><a href="#">Оперативный лизинг</a></li>
+                    <li><a href="#">Сдача автомобиля в такси</a></li>
+                    <li><a href="#">Сдача автомобиля в такси</a></li>    
+                    <li><a href="#">Инвесторам</a></li>
+                    <li><a href="#">Франшиза Royal Rent</a></li>          
+                </ul>         
+            </nav>
+        </div>
+    
+        <div id="login-menu">
+            <form action="ajax.php" name="" class="login">
+                <input type="email" name="email" placeholder="example@mail.com" required="required">
+                <input type="password" name="password" placeholder="пароль" required="required">
+                <button >ВОЙТИ</button>
+            </form>
+        </div>
+    
+        <div id="back-call">
+            <div class="main-heading">
+                <h3>Обратный звонок</h3>
+            </div>
+            <form action="ajax.php" name="" class="back-call">
+                <input type="name" name="name" placeholder="Ваше имя" required="required">
+                <input type="tel" class="tel-mask" name="tel" placeholder="Ваш телефон" required="required">
+                <div class="button-wrapper">
+                    <button class="standartYellow">Позвоните мне</button>
+                </div>
+            </form>
+        </div>
+    
+        <div id="back-call1">
+            <div class="main-heading">
+                <h3>В ближайшее время мы свяжемся с вами</h3>
+            </div>
+            <form action="ajax.php" name="" class="back-call1">
+                <input type="name" name="name" placeholder="Ваше имя" required="required">
+                <input type="tel" class="tel-mask" name="tel" placeholder="Ваш телефон" required="required">
+                <div class="button-wrapper">
+                    <button class="standartYellow">Позвоните мне</button>
+                </div>
+            </form>
+        </div>
+    
+        <div id="video-popup">
+            <iframe width="700px" height="450px" src="https://www.youtube.com/embed/5Q-qzjM3PWc"></iframe>
+        </div>
+    
+        <div id="photo-slider">
+            <div class="popup-slider">
+                <div class="big-popup">
+                    <div class="photo"><img src="../images/withoutcar.png" alt=""></div>
+                    <div class="photo"><img src="../images/withoutcar.png" alt=""></div>
+                    <div class="photo"><img src="../images/withoutcar.png" alt=""></div>
+                    <div class="photo"><img src="../images/withoutcar.png" alt=""></div>
+                    <div class="photo"><img src="../images/withoutcar.png" alt=""></div>
+                </div>
+                <div class="small-popup">
+                    <div class="sm-photo"><img src="../images/sm-car.png" alt=""></div>
+                    <div class="sm-photo"><img src="../images/back-car.png" alt=""></div>
+                    <div class="sm-photo"><img src="../images/in-car.png" alt=""></div>
+                    <div class="sm-photo"><img src="../images/back-car.png" alt=""></div>
+                    <div class="sm-photo"><img src="../images/in-car.png" alt=""></div>
+                </div>
+                <div class="prev"><img src="../images/prev.png" alt=""></div>
+                <div class="next"><img src="../images/next.png" alt=""></div>
+            </div>
+        </div>
+    
+    
+    </div>
+    
+    <div class="el-breadcrumbs foot-breadcrumbs">
+      <div class="mbox">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li class="active"><a href="credit_for_rent.html">Кредит на аренду</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- FOOTER -->
+    <div class="footer_placeholder">
+     
+    </div>
+    <footer class="footer">
+      <div class="mbox">
+    <!--     <div class="subscribe">
+          <h3>Подпишитесь на рассылку и экономьте узнавая о всех акциях и скидках первым!</h3>
+          <a class="el-button" href="#">Подписаться</a>
+        </div> -->
+        <div class="footer-list">
+          <div class="footer-list-col">
+            <div class="footer-list-item">
+              <h3>Услуги нашей компании</h3>
+              <ul>
+                <li><a href="excursion.html">Экскурсии и индивидуальные туры</a></li>
+                <li><a href="photosession.html">Фотосессия с эксклюзивным автомобилем</a></li>
+                <li><a href="business_travel.html">Деловые поездки</a></li>
+                <li><a href="pulkovo_transfer.html">Трансфер в аэропорт Пулково</a></li>
+                <li><a href="cabriolet-ride.html">Прогулки на кабриолетах</a></li>
+                <li><a href="vehicle_registration.html">Транспорт на свадьбу</a></li>
+                <li><a href="vehicle_registration.html">Оформление транспорта</a></li>
+                <li><a href="meeting_from_maternity.html">Встреча из роддома</a></li>
+                <li><a href="birthdays_anniversaris.html">День рождения или юбилей</a></li>
+                <li><a href="romantic_meetings.html">Романтическая встреча</a></li>
+                <li><a href="stpetersburg_transfer.html">Трансфер ж/д и речной вокзалы</a></li>
+                <li><a href="credit_for_rent.html">Аренда в кредит</a></li>
+                <li><a href="car_for_pmef.html">Автомобиль на ПМЭФ</a></li>
+                <li><a href="juridic-forum.html">Автомобиль на юридический форум</a></li>
+                <li><a href="rent_than_buy.html">Аренда с выкупом</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-list-col">
+            <div class="footer-list-item">
+              <h3>Услуги юридическим лицам</h3>
+              <ul>
+                <li><a href="conveying_employees.html">Развозка сотрудников</a></li>
+                <li><a href="business_taxi.html">Бизнес такси без логотипов</a></li>
+                <li><a href="vip_escort.html">VIP-сопровождение</a></li>
+                <li><a href="event_organization.html">Организация мероприятий</a></li>
+                <li><a href="cabriolet-ride.html">Прогулки на кабриолетах</a></li>
+                <li><a href="vip_hall_order.html">Заказ VIP залов</a></li>
+                <li><a href="meeting_with_plate.html">Встреча у трапа самолета с табличкой</a></li>
+                <li><a href="longtime_rent.html">Длительная аренда</a></li>
+              </ul>
+            </div>
+            <div class="footer-list-item">
+              <h3>Сотрудничество</h3>
+              <ul>
+                <li><a href="operational_leasing.html">Оперативный лизинг</a></li>
+                <li><a href="car_for_taxi.html">Сдача автомобиля в такси</a></li>
+                <li><a href="cooperation.html">Сотрудничество с нами</a></li>
+                <li><a href="for_investors.html">Инвесторам</a></li>
+                <li><a href="franchising.html">Франшиза Royal Rent</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-list-col">
+            <div class="footer-list-item">
+              <h3>Наш транспорт</h3>
+              <ul>
+                <li><a href="car_with_driver.html">Автомобили с водителем</a></li>
+                <li><a href="car_nonedriver.html">Автомобили без водителя</a></li>
+                <li><a href="cabriolets.html">Кабриолеты</a></li>
+                <li><a href="retro_cars.html">Ретро автомобили</a></li>
+                <li><a href="limousine.html">Лимузины</a></li>
+                <li><a href="minibuses.html">Микроавтобусы</a></li>
+                <li><a href="buses.html">Автобусы</a></li>
+                <li><a href="boats_and_yachts.html">Катера и яхты</a></li>
+                <li><a href="helicopters.html">Вертолеты</a></li>
+                <li><a href="business_aviation.html">Бизнес авиация</a></li>
+              </ul>
+            </div>
+            <div class="footer-list-item">
+              <h3>Дополнительно</h3>
+              <ul>
+                <li><a href="#">Калькулятор заказа</a></li>
+                <li><a href="#">Личный кабинет</a></li>
+                <li><a href="#">Карта сайта</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-list-col">
+            <div class="footer-list-item">
+              <h3>Информация о прокате</h3>
+              <ul>
+                <li><a href="about_us.html">О компании</a></li>
+                <li><a href="rent_conditions.html">Условия аренды</a></li>
+                <li><a href="tariffs.html">Тарифы</a></li>
+                <li><a href="revievs.html">Отзывы</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="news_shares_articles.html">Новости</a></li>
+                <li><a href="news_shares_articles.html">Статьи</a></li>
+                <li><a href="news_shares_articles.html">Акции</a></li>
+              </ul>
+            </div>
+            <a class="footer-logo" href="index.html">
+              <div class="footer-logo-wrap">
+                <img src="images/footer-logo.png" alt="Logo">
+              </div>
+              <p>ROYAL RENT</p>
+            </a>
+            <div class="footer-contacts">
+              <span>Car rental. Around-the-clock.</span>
+              <span>Автопрокат круглосуточно.</span>
+              <a href="tel:88000000000">8 800 000-00-00</a>
+              <a href="mailto:info@royalrent.ru">info@royalrent.ru</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="mbox">
+          <div class="footer-bottom-wrap">
+            <div class="footer-bottom-left">
+              <div class="copyright">
+                <span>Copyright © 2016 RoyalRent. Все права защищены.</span>
+              </div>
+              <div class="social">
+                <a href="#">
+                  <img src="images/fb-icon.png" alt="Facebook">
+                </a>
+                <a href="#">
+                  <img src="images/vk-icon.png" alt="VK">
+                </a>
+                <a href="#">
+                  <img src="images/insta-icon.png" alt="Instagram">
+                </a>
+                <a href="#">
+                  <img src="images/viber-icon.png" alt="Viber">
+                </a>
+                <a href="#">
+                  <img src="images/wa-icon.png" alt="WhatsApp">
+                </a>
+              </div>
+            </div>
+            <div class="design">
+              <span>Макеты сделаны <a href="http://theparallel.ru">Parallel</a></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- FOOTER -->
+    
+    <!-- SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/validate_script.js" ></script>
+    
+    <!-- build:js -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAD4EvtZ1QPqDgkPPt4o0hVDnkg45IvyUM"></script> 
+    <script type="text/javascript" src="js/plagins/device.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.fancybox.pack.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.formstyler.min.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.validate.min.js" ></script>
+    <script type="text/javascript" src="js/plagins/maskInput.js" ></script>
+    <script type="text/javascript" src="js/plagins/slick.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.timepicker.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery-ui.min.js" ></script>
+    
+    <!-- <script type="text/javascript" src="js/plagins/jquery.datepicker.extension.range.min.js" ></script>-->
+    <script type="text/javascript" src="js/plagins/datepicker-ru.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.secretnav.js" ></script>
+    <script type="text/javascript" src="js/plagins/modernizr.custom.25376.js" ></script>
+    <script type="text/javascript" src="js/plagins/SmoothScroll.js" ></script>
+    
+    <script type="text/javascript" src="js/plagins/jquery.mCustomScrollbar.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.mousewheel.js" ></script>
+    <script type="text/javascript" src="js/plagins/jquery.mousewheel-3.0.6.js" ></script>
+    
+    
+    
+    <script type="text/javascript" src="js/basic_scripts.js" ></script>
+    <script type="text/javascript" src="js/develop/develop_2.js" ></script>
+    <script type="text/javascript" src="js/develop/develop_6.js" ></script>
+    <script type="text/javascript" src="js/develop/develop_7.js" ></script>
+    
+    <!-- endbuild -->
+    
+    <!-- /SCRIPTS -->
+
+</div>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<section class="mbox first-step">
+    <div class="headline">
+        <div class="title">Оформление заказа</div>
+        <div class="steps">
+            <ul>
+                <li>1. Информация</li>
+                <li class="active">2. Доп. опции</li>
+                <li>3. Подтверждение</li>
+            </ul>
+        </div>
+    </div>
+    <form class="step-one" action="/" method="post" name="stepOne">
+        <div class="tariffs">
+            <div class="tarif-title">Выберите дополнительное оборудование</div>
+            <div class="el-tariffs">
+                <div class="tarif-item js-tariff">
+                    <p>Детское кресло</p>
+                    <div class="item item-sec">
+                        <div class="price">260 руб. в день</div>
+                        <div class="item-pic"><img src="../images/child-chair.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="tarif-item js-tariff">
+                    <p>Навигатор</p>
+                    <div class="item item-sec">
+                        <div class="price">100 руб. в день</div>
+                        <div class="item-pic"><img src="../images/navigator.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="order-info">
+            <div class="info-title">Ограничьте вашу ответственность</div>
+            <div class="info-items info-items-small">
+                <div class="item">
+                    <p>Выберите из списка</p>
+                     <select name="oplata" class="oplata" data-placeholder="Выберите из списка">
+                        <option>Полностью</option>
+                        <option>Частично — 220 руб. в день</option>
+                        <option>Частично — 220 руб. в день</option>
+                    </select>
+                </div>
+                <div class="item">
+                    <a href="#" class="more">Узнать подробнее о предложенных вариантах</a>
+                </div>
+            </div>
+        </div>
+        <div class="order-info">
+            <div class="info-title">Покрытие повреждений стекол, фар и автошин</div>
+            <div class="info-items info-items-small">
+                <div class="item">
+                    <p>Выберите из списка</p>
+                    <select name="oplata" class="oplata" data-placeholder="Выберите из списка">
+                        <option>Полностью</option>
+                        <option>Согласен — 170 руб. в день</option>
+                        <option>Согласен — 170 руб. в день</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="wrap-zones">
+            <div class="zones-title">Выезды за область</div>
+            <div class="zones">
+                <p>Выберите зоны, в которые вы хотите выезжать обслуживания:</p>
+                <div class="check-field">
+                    <input id="zone1" type="checkbox" name="avia">
+                    <label for="zone1"><span></span>Зона 2 — 150 руб. в день</label>
+                </div>
+                <div class="check-field">
+                    <input id="zone2" type="checkbox" name="avia">
+                    <label for="zone2"><span></span>Зона 3 — 150 руб. в день</label>
+                </div>
+                <div class="check-field">
+                    <input id="zone3" type="checkbox" name="avia">
+                    <label for="zone3"><span></span>Зона 4 — 150 руб. в день</label>
+                </div>
+            </div>
+            <a href="#" class="more">Узнать подробнее о предложенных вариантах</a>
+        </div>
+        <button type="submit" class="el-button">Продолжить</button>
+    </form>
+</section>
